@@ -1,0 +1,873 @@
+@media screen and (max-width:800px) {
+  .secondlist21 {
+    display: none;
+    ;
+  }
+
+  .secondlist22 {
+    display: block;
+  }
+
+  .a2 {
+    display: none;
+  }
+
+  .secondlist:hover .secondlist1 {
+    display: none;
+  }
+
+
+
+
+  .fourlist1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fourlist2 {
+    display: none;
+
+  }
+
+  .a51 {
+    transform: rotate(260deg);
+  }
+
+
+
+}
+
+@media screen and (max-width:500px) {
+  .a1 {
+    display: none
+  }
+
+  .a2 {
+    display: block;
+    ;
+  }
+
+  .secondlist:hover .secondlist1 {
+    display: none;
+  }
+
+  .a6 {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+  }
+
+
+  .fourlist2 {
+    display: none;
+  }
+
+  .a51 {
+    transform: rotate(0deg);
+  }
+}
+
+
+@media screen and (max-width:1280px) {
+  .cover_section {
+    background-image: url(img1/diamond2.png);
+    min-height: 704px;
+  }
+
+  .line {
+    margin-top: 34px;
+  }
+}
+
+
+
+@media screen and (max-width:768px) {
+  .cover_section {
+    display: none !important;
+  }
+
+  .cover_section_768 {
+    display: block;
+  }
+
+  .cover_section_768img {
+    background-image: url(img1/diamond3.png);
+  }
+
+  .line {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cover_section_768 {
+    max-width: 320px;
+    min-height: 656px;
+  }
+
+  .cover_section_768img {
+    background-image: url(img1/diamond4.png);
+    box-sizing: border-box;
+    max-width: 320px;
+    min-height: 320px;
+    border-bottom: 1px solid #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .frame4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    max-width: 320px;
+    min-height: 656px;
+  }
+
+  .frame3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 37px;
+    max-width: 320px;
+    min-height: 608px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .frame2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 28px;
+    max-width: 320px;
+    min-height: 290px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .frame1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    max-width: 264px;
+    min-height: 175px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  .earring_section {
+    max-width: 1280.33px;
+    min-height: 1248px;
+  }
+
+  .midnight1 {
+    max-width: 348px;
+    min-height: 416px;
+  }
+
+  .butt {
+    max-width: 427px;
+    min-height: 53px;
+  }
+
+  .midd {
+    max-width: 427px;
+    min-height: 341px;
+    background-position: center;
+  }
+
+  .imgb {
+    max-width: 348px;
+    min-height: 416px;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .earring_section {
+    max-width: 768px;
+    min-height: 1248px;
+  }
+
+  .midnight1 {
+    max-width: 305px;
+    min-height: 384px;
+  }
+
+  .butt {
+    max-width: 220.7px;
+    min-height: 48px;
+  }
+
+  .imgb {
+    max-width: 305px;
+    min-height: 384px;
+  }
+
+  .img42 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .midnight1 {
+    max-width: 320px;
+    min-height: 220px;
+  }
+
+  .midd {
+    max-width: 384px;
+    min-height: 307.2px;
+    background-position: center;
+  }
+
+  .butt {
+    max-width: 183.92px;
+    min-height: 40px;
+  }
+
+  .imgb {
+    max-width: 320px;
+    min-height: 320px;
+     background-image: url(img1/imagres.png);
+  }
+}
+
+@media screen and (max-width:1280px) {
+  .invitation {
+    background-image: url(img1/mask2.png);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .invitation {
+    background-image: url(img1/mask3.png);
+  }
+
+  .yourinv {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .meetmem {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .pinvit {
+    max-width: 270px;
+  }
+
+  .butapp {
+    border-radius: 5px;
+    min-height: 48px;
+    max-width: 200px;
+    border-radius: 5px;
+  }
+
+  .bookapp {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .passtext {
+    min-height: 238px;
+    max-width: 297px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .invitation {
+    background-image: url(img1/mask4.png);
+  }
+}
+
+@media screen and (max-width:1280px) {
+  .inthe {
+    font-size: 80px;
+    line-height: 80px;
+    text-transform: capitalize;
+  }
+
+  .pic1 {
+    background-image: url(img1/Pic1\(1\).png);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .sec1 {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 256px;
+    width: 100%;
+
+  }
+
+  .pic1 {
+    background-image: url(img1/Pic1\(2\).png);
+    max-width: 314px;
+    border-radius: 5px;
+    min-height: 256px;
+    background-repeat: no-repeat;
+  }
+
+  .heart {
+    display: none;
+  }
+
+  .intheres {
+    display: block;
+    font-family: Lenora, arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  .invdiv {
+    max-width: 259px;
+    min-height: 256px;
+    gap: 20px;
+
+  }
+
+  .inv {
+    font-family: Lenora, arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+
+
+}
+
+@media screen and (max-width:320px) {
+  .pic1 {
+    background-image: url(img1/Pic1\(3\).png);
+    background-repeat: no-repeat;
+    min-height: 192px;
+    max-width: 264px;
+    border-radius: 5px;
+  }
+
+  .sec1 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .intheres {
+    font-weight: 500;
+  }
+
+  .invdiv {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  .detail {
+    max-width: 1280px;
+  }
+
+  .pic6 {
+    background-image: url(img1/Pic6\(1\).png);
+  }
+
+  .all {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    text-transform: capitalize;
+    max-width: 346px;
+    width: 100%;
+  }
+
+  .allin {
+    justify-content: flex-start;
+  }
+
+}
+
+@media screen and (max-width:1280px) {
+  .pic3 {
+    background-image: url(img1/Pic3\(1\).png);
+  }
+
+  .approach {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width:1280px) {
+  .passionate {
+    max-width: 1280px;
+  }
+
+  .passtext {
+    max-width: 550px;
+  }
+
+  .pass {
+    font-size: 80px;
+    line-height: 80px;
+    text-transform: capitalize;
+  }
+
+  .pic4 {
+    background-image: url(img1/Pic4res.png);
+  }
+}
+
+@media screen and (max-width:768px) {
+  .sec2 {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 768px;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .fr {
+    display: block;
+  }
+
+  .pic6 {
+    background-image: url(img1/res768.png);
+  }
+
+  .allin {
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+  }
+
+  .allin p {
+    max-width: 279px;
+    width: 100%;
+  }
+
+  .all {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+  }
+
+  .approach {
+    display: none;
+  }
+
+  .detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 451px;
+  }
+
+  .passionate {
+    min-height: 340px;
+  }
+
+  .div848 {
+    flex-direction: row-reverse;
+  }
+
+  .pic4 {
+    display: none;
+  }
+
+  .pic4_6 {
+    display: block;
+  }
+
+  .from {
+    display: none;
+  }
+
+  .ppp {
+    display: block;
+  }
+
+  .pass {
+    font-size: 28px;
+    line-height: 32px;
+    max-width: 236px;
+    width: 100%;
+  }
+
+  .passtext {
+    min-height: 238px;
+    max-width: 307px;
+  }
+
+  .div848 {
+    min-height: 254px;
+  }
+
+  .workshop {
+    min-height: 1131px;
+    align-items: flex-end;
+  }
+
+  .worktext {
+    min-height: 978px;
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  .invdiv {
+    justify-content: space-evenly;
+  }
+
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pic6 {
+    background-image: url(img1/pic3_res.png);
+  }
+
+  .allin {
+    max-width: 264px;
+  }
+
+  .all {
+    font-weight: 500;
+  }
+
+  .fr {
+    max-width: 270px
+  }
+
+  .br {
+    min-height: 10px;
+  }
+
+  .div848 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .pic4_6 {
+    background-image: url(img1/pic6res3.png);
+    background-position: center;
+  }
+
+  .passtext {
+    max-width: 264px;
+  }
+
+  .pass {
+    font-weight: 500;
+  }
+
+  .sec1 {
+    margin-top: 40px;
+  }
+}
+
+
+@media screen and (max-width:1280px) {
+  .picres {
+    display: block;
+  }
+
+  .faq {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 96px;
+  }
+
+  .these {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .box {
+    max-width: 1045px;
+  }
+
+  .inbox {
+    max-width: 970px;
+  }
+
+  .quest p {
+    font-size: 20px;
+  }
+
+  .answer1 {
+    display: none;
+  }
+
+  .ansres {
+    display: block;
+    max-width: 555px;
+    width: 100%;
+  }
+
+  .bacvoxp {
+    max-width: 970px;
+    min-height: 78px;
+  }
+
+  .bacvoxp1 {
+    min-height: 78px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .fq {
+    display: block;
+    font-family: Lenora arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+  }
+
+  .faq {
+    display: none;
+    ;
+  }
+
+  .these {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .box {
+    min-height: 52px;
+    max-width: 688px;
+    border-radius: 10px;
+
+  }
+
+  .quest p {
+    font-weight: 600;
+    font-size: 14px;
+    min-height: 14px;
+  }
+
+  .inbox {
+    min-height: 55px;
+    max-width: 613px;
+    border-radius: 5px;
+
+  }
+
+  .section13_faq {
+    min-height: 403px;
+  }
+
+  .menuu {
+    min-height: 403px;
+  }
+
+  .questions {
+    min-height: 365px;
+  }
+
+  .passionate {
+    min-height: 267px;
+  }
+
+  .bacvoxp {
+    max-width: 613px;
+    min-height: 128px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .fq {
+    font-weight: 400;
+  }
+
+  .these {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .quest p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .answer {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .questions {
+    min-height: 460px;
+  }
+
+  .menuu {
+    max-width: 272px;
+  }
+
+  .inbox {
+    max-width: 234px;
+  }
+
+  .questions {
+    min-height: 284px;
+  }
+}
+
+
+
+
+@media screen and (max-width:1280px) {
+  .footer_adress_Narek {
+    max-width: 310px;
+    width: 100%;
+  }
+
+  .footer_adress_text_Narek {
+    max-width: 220px;
+    width: 100%;
+  }
+
+  .footer_hour_Narek {
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .footer_hour_text_Narek {
+    max-width: 220px;
+    width: 100%;
+  }
+
+  .footer_gmail_Narek {
+    max-width: 370px;
+    width: 100%;
+  }
+
+  .footer_gmail_text_Narek {
+    max-width: 210px;
+    width: 100%;
+  }
+
+  .footer_company_Narek {
+    max-width: 120px;
+    width: 100%;
+  }
+
+  .footer_company_text_Narek {
+    max-width: 220px;
+    width: 100%;
+  }
+
+  .footer_backtop_Narek {
+    max-width: 120px;
+    width: 100%;
+  }
+
+  .footer_backtop_text_Narek {
+    max-width: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .input_1 {
+    max-width: 311px;
+    width: 100%;
+    min-height: 48px;
+    background: #FBFBFB;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+  }
+
+  .input_2 {
+    max-width: 311px;
+    width: 100%;
+    min-height: 48px;
+    background: #404759;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .style_1 {
+    font-size: 13px;
+  }
+
+  .style_2 {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width:1151px) {
+  .footer_backtop_Narek {
+    max-width: 90px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .footer_div_Narek {
+    min-height: 403px;
+  }
+
+  .footer_div_mini_Narek {
+    min-height: 350px;
+  }
+
+  .footer_hour_Narek {
+    display: none;
+  }
+
+  .hour_responsive {
+    display: block;
+  }
+
+  .input_1 {
+    max-width: 181px;
+  }
+
+  .input_2 {
+    max-width: 181px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .footer_div_mini_Narek {
+    flex-direction: column;
+  }
+}

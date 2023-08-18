@@ -1,0 +1,1185 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin:auto;
+    overflow: hidden;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.firstlist{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 40px;
+    background: #404759;
+    position: fixed;
+    position: relative;
+}
+.firstlist ul{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    min-height: 40px;
+    align-content: space-between;
+    align-items: center;
+}
+.firstlist a{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;    
+    text-transform: capitalize;
+    color: #F5F5F5;
+}
+.secondlist{
+    max-width: 1440px;
+    width: 100%;
+    min-height:50px;
+    /* border:Solid 1px; */
+    position: fixed;
+    background-color: white;
+    position: relative;
+}
+.secondlist1{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 0px;
+    height: 0px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    transition: 1s;
+}
+.secondlist2{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 50px;
+    border:Solid 1px;
+}
+.secondlist:hover .secondlist1{
+    display: flex;
+    min-height: 100px;
+}
+.secondlist1one{
+    max-width: 100px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.secondlist1three{
+    max-width: 100px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.secondlist1two{
+    max-width: 1000px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+.secondlist21{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 50px;
+}
+.secondlist21 ul{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secondlist21 a{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.secondlist22{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 50px;
+    display: none;
+}
+.secondlist22 ul{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.threelist{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 500px;
+    border: Solid 1px;
+    z-index: 7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+.threelist1{
+    max-width: 400px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.threelist2{
+    max-width: 800px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.threelist1one a{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.threelist1two span{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.threelist1two {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    justify-content: space-around;
+}
+.threelist1two ul{
+    display: flex;
+    min-height: 150px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.threelist1one ul{
+    display: flex;
+    min-height: 50px;
+}
+.threelist2one{
+    max-width: 280px;
+    width: 100%;
+    min-height: 400px;
+}
+.threelist2two span{
+    max-width: 300px;
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fourlist{
+    max-width: 800px;
+    width: 100%;
+    min-height: 500px;
+    border: Solid 1px;
+    display: flex;
+    align-items: flex-start;
+    display: none;
+    z-index: 5;
+    position: absolute;
+
+}
+.fourlist1{
+    max-width: 500px;
+    width: 100%;
+    min-height: 400px;
+    display:none;
+    z-index: 3;
+    background-color: white;
+}
+.fourlist2{
+    max-width: 200px;
+    width: 100%;
+    min-height: 300px;
+    display:none;
+    background-color: white;
+}
+.fourlist2 ul{
+    max-width: 200px;
+    width: 100%;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fourlist1 ul{
+    max-width: 200px;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.a6{
+    margin-left: 50px;
+    display: none;
+
+}
+.fourlist a{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #000000;
+
+}
+.fourlist1two{
+    max-width: 91px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* menu end */
+
+.Engagement_Rings_Narek{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 600px;
+    border-bottom: solid 2px rgb(89, 89, 89) ;
+    overflow: hidden;
+    position: relative;
+}
+.Engagement_Rings_image_div_Narek{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    z-index: -1;
+}
+.image_1{
+    position: absolute;
+    left: 37%;
+    top: 300px;
+}
+.image_2{
+    position: absolute;
+    left: 51%;
+    bottom: 10px;
+}
+.image_3{
+    position: absolute;
+    left: 30%;
+}
+.image_4{
+    position: absolute;
+    left: 18%;
+    top: 70px;
+}
+.header_first_text_Narek span{
+    font-family: 'Lenora Premium' ,arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #111111;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.header_div_text_Narek{
+    position: absolute;
+    max-width: 600px;
+    width: 100%;
+    left: 150px;
+    margin-top: 50px;
+}
+.header_two_text_Narek{
+    max-width: 500px;
+    width: 100%;
+}
+.header_two_text_Narek span{
+    font-family: 'Proxima Nova' , serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.ddfy{
+    display: none;
+}
+.header_two_text_Narek2{
+    max-width: 500px;
+    width: 100%;
+}
+.header_two_text_Narek2 span{
+    font-family: 'Proxima Nova' , serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.header_text_button_Narek button{
+    font-family: 'Proxima Nova' , serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #111111;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 226px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    min-height:64px;
+    cursor: pointer;
+    z-index: 2;
+}
+.header_text_button_Narek2 button{
+    font-family: 'Proxima Nova' , serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #111111;
+    background-color: white;
+    border-radius: 5px;
+    max-width: 226px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px;
+    min-height:64px;
+    cursor: pointer;
+    z-index: 2;
+}
+.Rings_Narek{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 645px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.rings{
+    max-width: 370px;
+    width: 100%;
+    min-height: 643px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-right: solid 1px;
+    align-items: center;
+}
+.ring_name_Narek{
+    max-width: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ring_name_1{
+    max-width: 160px;
+}
+
+.ring_name_Narek span{
+    font-family: 'Lenora LC-Trial' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.rings1{
+    border: none;
+}
+.about_ring_Narek{
+    max-width: 260px;
+    width: 100%;
+}
+.about_ring_Narek span{
+    font-family: 'Proxima Nova', serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.ring_colection_Narek{
+    max-width: 220px;
+    width: 100%;
+    border: solid 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.ring_colection_Narek button{
+    max-width: 220px;
+    width: 100%;
+    min-height: 65px;
+    cursor: pointer;
+    font-family: 'Proxima Nova' , serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    background-color: white;
+    border: none;
+}
+.perfect_ring_Narek{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 480px;
+    background: #F2F2F2;
+    border-bottom: rgb(89, 89, 89) solid 2px;
+    border-top: rgb(89, 89, 89) solid 2px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.perfect_text_Narek{
+    max-width: 790px;
+    width: 100%;
+    z-index: 3;
+    padding: 50px;
+}
+.perfect_text_head_Narek span{   
+    font-family: 'Lenora Premium' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.perfect_text_about_Narek span{
+    font-family: 'Proxima Nova' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.perfect_text_button_Narek button{
+    max-width: 200px;
+    width: 100%;
+    min-height: 65px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
+.perfect_big_ring_Narek{
+  margin-top: 150px;
+}
+.rate_Narek{
+    max-width: 1440px;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.rate_first_part{
+    display: flex;
+    max-width: 440px;
+    width: 100%;
+}
+.rate_text_Narek span{
+    font-family: 'Proxima Nova' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+.rate_second_part{
+    position: relative;
+}
+.stars_icons{
+    display: flex;
+}
+.stars_icons img{
+    margin-left: 8px;
+}
+.second_div_image2_Narek{
+    position: absolute;
+    top: 450px;
+    right:190px;
+}
+.the_guide_Narek{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 497px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.big_diamond{
+    margin-top: 0;
+}
+
+
+.inovation_Narek{
+    max-width: 1440px;
+    width: 100%;
+    background-image: url(img/inovation.jpg);
+    min-height: 480px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inovation_info_Narek{
+    max-width:450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inov_header_text span{
+    font-family: 'Lenora Premium', arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.about_text_inov{
+    max-width: 400px;
+    width: 100%;
+}
+.about_text_inov span{
+    font-family: 'Proxima Nova',arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.inov_button button{
+    background: rgba(196, 196, 196, 0.1);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    max-width: 206px;
+    width: 100%;
+    min-height: 64px;
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.gia{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.gia_first{
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+}
+.gia_first_header_text span{
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.gia_first_about span{
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.gia_second{
+    max-width: 490px;
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+}
+.footer_div_Narek{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 303px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( 0.25turn,#3f3e5a, #404759);
+}
+.footer_div_mini_Narek{
+    max-width: 1440px;
+    width: 95%;
+    min-height: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_adress_Narek{
+    max-width: 350px;
+    width: 100%;
+}
+.footer_adress_text_Narek{
+    max-width: 220px;
+    width: 100%;
+}
+.style_1{
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+.style_2{
+    font-family: 'Proxima Nova' , arial;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    color: #F2F2F2;
+}
+
+.footer_hour_Narek{
+    max-width: 200px;
+    width: 100%;
+}
+.footer_hour_text_Narek{
+    max-width: 220px;
+    width: 100%;
+}
+
+.footer_gmail_Narek{
+    max-width: 420px;
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+}
+.footer_gmail_text_Narek{
+    max-width: 220px;
+    width: 100%;
+}
+.footer_company_Narek{
+    max-width: 120px;
+    width: 100%;
+}
+.footer_company_text_Narek{
+    max-width: 220px;
+    width: 100%;
+}
+.footer_backtop_Narek{
+    max-width: 120px;
+    width: 100%;
+}
+.footer_backtop_header_Narek{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer_backtop_text_Narek{
+    max-width: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.input_1{
+    max-width: 311px;
+    width: 100%;
+    min-height: 48px;
+    background: #FBFBFB;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+}
+.input_2{
+    max-width: 311px;
+    width: 100%;
+    min-height: 48px;
+    background: #404759;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.footer_company_text_ul_Narek{
+    list-style: none;
+}
+.footer_company_text_ul_Narek li a{
+    font-family: 'Proxima Nova' , arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+.hour_responsive{
+    display: none;
+}
+
+@media screen and (max-width:1280px) {
+    .footer_adress_Narek{
+        max-width: 310px;
+        width: 100%;
+        padding: 0px 20px 20px 20px;
+    }
+    .footer_adress_text_Narek{
+        max-width: 220px;
+        width: 100%;
+    }
+    .footer_hour_Narek{
+        max-width: 200px;
+        width: 100%;
+    }
+    .footer_hour_text_Narek{
+        max-width: 220px;
+        width: 100%;
+    }
+    .footer_gmail_Narek{
+        max-width: 370px;
+        width: 100%;
+    }
+    .footer_gmail_text_Narek{
+        max-width: 210px;
+        width: 100%;
+    }
+    .footer_company_Narek{
+        max-width: 120px;
+        width: 100%;
+    }
+    .footer_company_text_Narek{
+        max-width: 220px;
+        width: 100%;
+    }
+    .footer_backtop_Narek{
+        max-width: 120px;
+        width: 100%;
+    }
+    .footer_backtop_text_Narek{
+        max-width: 220px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .input_1{
+        max-width: 311px;
+        width: 100%;
+        min-height: 48px;
+        background: #FBFBFB;
+        border: 1px solid #F2F2F2;
+        border-radius: 5px;
+    }
+    .input_2{
+        max-width: 311px;
+        width: 100%;
+        min-height: 48px;
+        background: #404759;
+        border: 1px solid #F2F2F2;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
+    .style_1{
+        font-size: 13px;
+    }
+    .style_2{
+        font-size: 11px;
+    }
+    .Rings_Narek{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .rings{   
+        max-width: 425px;
+    }
+    .ring2{
+        border: none;
+        border-bottom: solid rgb(89, 89, 89) 1px;
+    }
+    .ring1{
+        /* border: none; */
+        border-bottom: solid rgb(89, 89, 89) 1px;
+    }
+    .image_1{
+        left: 29%;
+    }
+    .image_2{
+        left: 42%;
+    }
+    .image_3{
+        left: 22%;
+    }
+    .image_4{
+        left: 11%;
+    }
+    .header_first_text_Narek span{
+        font-size: 52px;
+    }
+    .header_two_text_Narek span{
+        font-size: 17px;
+    }
+    .perfect_text_head_Narek span{
+        font-size: 52px;
+    }
+    .footer_gmail_subscribe_Narek{
+        max-width: 270px;
+        width: 100%;
+    }
+    .footer_gmail_inputs_Narek{
+        max-width: 270px;
+        width: 100%;
+    }
+    .perfect_text_about_Narek span{
+        font-size: 18px;
+    }
+    .perfect_text_about_Narek{
+        max-width: 350px;
+        width: 100%;
+    }
+    .perfect_text_head_Narek{
+        max-width: 350px;
+        width: 100%;
+    }
+    .rate_text_Narek span{
+        font-size: 20px;
+    }
+    .header_div_text_Narek{
+        left: 70px;
+        margin-top: 35px;
+    }
+    .big_diamond{
+        /* margin-right: 70px; */
+        position: absolute;
+        left: 40%;
+    }
+    .rate_Narek{
+        padding: 50px;
+    }
+    .gia{
+        display: flex;
+    }
+  }
+  @media screen and (max-width:999px) {
+    .rate_Narek{
+        padding: 10px;
+    }
+    .rate_text_Narek span{
+        font-size: 20px;
+        z-index: 3;
+        line-height: 25px;
+    }
+    .second_div_image2_Narek{
+        right: 120px;
+        top: 360px;
+    }
+    .header_first_text_Narek{
+        max-width: 400px;
+    }
+    .header_two_text_Narek{
+        max-width: 350px;
+    }
+  }
+  @media screen and (max-width:855px) {
+    .rings{   
+        max-width: 385px;
+    }
+  }
+  .engagement_resp{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: solid 1px rgb(89, 89, 89);
+    display: none;
+  }
+.header_2{
+    max-width: 500px;
+}
+  @media screen and (max-width:768px) {
+    .footer_div_Narek{
+        min-height: 403px;
+    }
+    .second_div_image2_Narek{
+        top: 330px;
+        max-width: 139px;
+        width: 100%;
+        right: 300px;
+    }
+    .ddfy{
+        display: block;
+    }
+    .second_div_image2_Narek img{
+        width: 100%;
+    }
+    .footer_div_mini_Narek{
+        min-height: 350px;
+    }
+    .footer_hour_Narek{
+        display: none;
+    }
+    .hour_responsive{
+        display: block;
+    }
+    .input_1{
+        max-width: 181px;
+    }
+    .input_2{
+        max-width: 181px;
+    }
+    .rate_text_span_Narek{
+        max-width: 260px;
+        
+    }
+    .rate_text_Narek span{
+        font-size: 14px;
+        z-index: 3;
+        line-height: 16px;
+    }
+    .second_div_image1_Narek{
+        max-width: 314px;
+        width: 100%;
+        min-height: 384px;
+    }
+    .second_div_image1_Narek img{
+        width: 100%;
+    }
+    .gia_second{
+        max-width: 314px;
+    }
+    .gia_second img{
+        width: 100%;
+    }
+    .gia_first{
+        max-width: 400px;
+    }
+    .nnv{
+        display: none;
+    }
+    .header_text_button_Narek{
+        display: none;
+    }
+    .header_two_text_Narek{
+        display: none;
+    }
+    .gia_first_about span{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .rings{
+        max-width: 260px;
+    }
+    .rings_image_Narek{
+        max-width: 231px;
+        min-height: 181px;
+    }
+    .rings_image_Narek img{
+        width: 100%;
+    }
+    .engagement_resp{
+        display: flex;
+    }
+    .image_1{
+        max-width: 492px;
+        width: 100%;
+        min-height: 99px;
+        top: 440px;
+        left: 37%;
+    }
+    .image_2{
+        max-width: 371px;
+        width: 100%;
+        min-height: 99px;
+    }
+    .image_3{
+        max-width: 371px;
+        width: 100%;
+        min-height: 99px;
+        top: 200px;
+    }
+    .image_4{
+        max-width: 371px;
+        width: 100%;
+        min-height: 99px;
+        top: 300px;
+    }
+    .header_first_text_Narek{
+        max-width: 500px;
+    }
+    .perfect_big_ring_Narek img{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width:480px) {
+    .footer_div_mini_Narek{
+        flex-direction: column;
+    }
+  }
+
+
+@media screen and (max-width:600px) {
+    .second_div_image2_Narek{
+        right: 80px;
+        top: 230px;
+    }
+    .header_first_text_Narek{
+        max-width: 300px;
+    }
+    .header_first_text_Narek span{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .image_1{
+        max-width: 382px;
+        width: 100%;
+        min-height: 99px;
+        top: 475px;
+        left: 25%;
+    }
+    .image_2{
+        max-width: 281px;
+        width: 100%;
+        min-height: 99px;
+    }
+    .image_3{
+        max-width: 281px;
+        width: 100%;
+        min-height: 99px;
+        top: 200px;
+    }
+    .image_4{
+        max-width: 281px;
+        width: 100%;
+        min-height: 99px;
+        top: 300px;
+    }
+    .rings{
+        border: none;
+        border-bottom:solid 1px rgb(89, 89, 89) ;
+    }
+    .header_two_text_Narek2{
+        max-width: 300px;
+    }
+    .header_two_text_Narek2 span{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+
+
+
+
+
+
+

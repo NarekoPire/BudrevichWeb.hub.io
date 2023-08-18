@@ -1,0 +1,168 @@
+
+@media screen and (max-width:800px) {
+.secondlist21{
+  display: none;;
+}
+.secondlist22 {
+  display: block;
+}
+.a2{
+  display:none;
+}
+.secondlist:hover .secondlist1{
+  display:none;
+}
+
+
+
+
+.fourlist1{
+  display: flex;
+  flex-direction: column;
+}
+
+  .fourlist2{
+    display: none;
+
+  }
+  .a51{
+    transform: rotate(260deg);
+   }
+ 
+
+
+}
+@media screen and (max-width:500px) {
+    .a1{
+        display:none
+    }
+    .a2{
+      display:block;;
+    }
+    .secondlist:hover .secondlist1{
+      display:none;
+    }
+
+    .a6{
+      display: block;
+      max-width: 200px;
+      width: 100%;
+    } 
+
+
+   .fourlist2{
+    display:none;
+   }
+   .a51{
+    transform: rotate(0deg);
+   }
+}
+
+
+
+
+@media screen and (max-width:799px) {
+  .fourlist2{
+    display:none;
+  }
+  .fourlist{
+    display:none;
+    border:0
+  }
+}
+
+
+
+
+@media screen and (max-width:620px) {
+  .fivelist1 span{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+  
+  }
+  .sevenlist1 span{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+  
+  }
+  .fivelist1{
+    min-height: 361px;
+  }
+  .sevenlist1{
+    min-height: 261px;
+  }
+  .fivelist1 h3{
+    font-family: 'Lenora Premium';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+text-transform: capitalize;
+color: #000000;
+  }
+  .fivelist{
+    min-height: 200px;
+  }
+  .sevenlist{
+    min-height: 200px;
+  }
+  
+}
+@media screen and (max-width:320px) {
+  .fivelist1 span{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #000000;
+    min-height: 121px;
+
+  }
+  .sevenlist span{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #000000;
+    min-height: 121px;
+
+  }
+  .fivelist1 h3{
+    font-family: 'Lenora Premium';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+text-transform: capitalize;
+color: #000000;
+  }
+ 
+}
+
+@media screen and (max-width:800px) {
+  .sixlist{
+    min-height: 150px;
+    background-image: url(./img1/32.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+  }
+}
+
+@media screen  and (max-width:320px){
+  .sixlist{
+    min-height: 64px;
+  
+
+  }
+}

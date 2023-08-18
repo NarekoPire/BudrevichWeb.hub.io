@@ -1,0 +1,2144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+.menu {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 74px;
+}
+
+.gradient_img_container1 {
+    max-width: 424px;
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gradient_img_container1 p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+
+.main_page_section {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 624px;
+    background: linear-gradient(107.8deg, rgba(0, 0, 0, 0.3) 4.53%, rgba(0, 0, 0, 0) 95.24%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/budrevichstudio691_1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.main_page_section_frame {
+    max-width: 1300px;
+    width: 100%;
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_page_section_frame p {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    color: #FFFFFF;
+    width: 474px;
+}
+
+.main_page_section_frame li {
+    max-width: 198px;
+    width: 100%;
+    min-height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_page_section_frame li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.design_process_section {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 5200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.design_process_section_info1 {
+    max-width: 1328px;
+    width: 100%;
+    min-height: 608px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.design_process_section_info1_img {
+    max-width: 650px;
+    width: 100%;
+    min-height: 608px;
+}
+
+.design_process_section_info1_img img {
+    width: 100%;
+}
+
+.design_process_section_info1_text {
+    max-width: 537px;
+    width: 100%;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.design_process_section_info1_text p:nth-child(1) {
+    font-family: 'Lenora Premium' !;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.design_process_section_info1_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.design_process_section_info2 {
+    max-width: 1328px;
+    width: 100%;
+    min-height: 544px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.design_process_section_info2_text {
+    max-width: 537px;
+    width: 100%;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.design_process_section_info2_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.design_process_section_info2_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.design_process_section_info2_img {
+    max-width: 537px;
+    width: 100%;
+    min-height: 544px;
+}
+
+.design_process_section_info2_img img {
+    width: 100%;
+}
+
+.text1 {
+    font-family: 'Lenora LC-Trial' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 40px !important;
+    line-height: 48px !important;
+    text-transform: capitalize !important;
+    color: #000000 !important;
+}
+
+.info_text1 {
+    min-height: 275px !important;
+}
+
+.info1_text1 {
+    min-height: 470px !important;
+}
+
+.info2_text1 {
+    min-height: 390px !important;
+}
+
+.design_process_rectangle {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 368px;
+    background: #293145;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.design_process_rectangle p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 1111px;
+}
+
+.design_process_Philosophy {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.design_process_Philosophy_info {
+    max-width: 1328px;
+    width: 100%;
+    min-height: 608px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.design_process_Philosophy_info_img {
+    max-width: 537px;
+    width: 100%;
+    min-height: 608px;
+}
+
+.design_process_Philosophy_info_img img {
+    width: 100%;
+}
+
+.design_process_Philosophy_info_text {
+    max-width: 650px;
+    width: 100%;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.design_process_Philosophy_info_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.design_process_Philosophy_info_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.design_process_cover {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 352px;
+    background-image: url(img/image_181.png);
+    background-size: cover;
+}
+
+.workshop_detail_img img {
+    width: 100%;
+}
+
+.workshop_approach_img img {
+    width: 100%;
+}
+
+.workshop_approach_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 305px;
+    display: none;
+}
+
+.workshop {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 2464px;
+    border-bottom: solid 1px #000000;
+    overflow: hidden;
+}
+
+.workshop_title {
+    max-width: 784px;
+    width: 100%;
+    min-height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.workshop_title p {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 96px;
+    color: #000000;
+    width: 720px;
+}
+
+.workshop_invite {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 416px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.workshop_invite_text {
+    max-width: 424px;
+    width: 100%;
+    min-height: 288px;
+}
+
+.workshop_invite_img {
+    max-width: 650px;
+    width: 100%;
+    min-height: 416px;
+}
+
+.workshop_invite_img img {
+    width: 100%;
+}
+
+.workshop_invite_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.workshop_detail {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 288px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.workshop_detail_img {
+    max-width: 424px;
+    width: 100%;
+    min-height: 288px;
+}
+
+.workshop_detail_text {
+    max-width: 650px;
+    width: 100%;
+    min-height: 194px;
+}
+
+.workshop_detail_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.workshop_approach {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 368px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.workshop_approach_img {
+    max-width: 763px;
+    width: 100%;
+    min-height: 368px;
+}
+
+.workshop_approach_text {
+    max-width: 424px;
+    width: 100%;
+    min-height: 256px;
+}
+
+.workshop_approach_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.workshop_about {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 753px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.workshop_about_text {
+    max-width: 650px;
+    width: 100%;
+    min-height: 753px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.workshop_about_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.workshop_about_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    width: 424px;
+}
+
+.workshop_about_img {
+    max-width: 424px;
+    width: 100%;
+    min-height: 753px;
+}
+
+.workshop_invite_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 262px;
+    display: none;
+}
+
+.workshop_detail_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    width: 302px;
+    display: none;
+}
+
+.workshop1 {
+    max-width: 320px;
+    width: 100%;
+    min-height: 1590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.workshop1_container {
+    max-width: 320px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workshop1_container_img {
+    max-width: 264px;
+    width: 100%;
+    min-height: 192px;
+}
+
+.workshop1_container_img img {
+    width: 100%;
+}
+
+.workshop1_container_text {
+    max-width: 244px;
+    width: 100%;
+    min-height: 205px;
+}
+
+.workshop1_container_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.workshop1_container_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.invitation {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 384px;
+    background-image: url(img/Mask_Group.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px #000000;
+    overflow: hidden;
+}
+
+.invitation_text ul {
+    max-width: 198px;
+    width: 100%;
+    min-height: 64px;
+}
+
+.invitation_text {
+    max-width: 424px;
+    width: 100%;
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.invitation_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.invitation_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.invitation_text ul li {
+    max-width: 198px;
+    width: 100%;
+    min-height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.invitation_text ul li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.instV2 {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 1088px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.instV2_title {
+    max-width: 424px;
+    width: 100%;
+    min-height: 24px;
+}
+
+.instV2_title p {
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.instV2_pic {
+    max-width: 1360px;
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.instV2_pic_img {
+    max-width: 424px;
+    width: 100%;
+    min-height: 424px;
+}
+
+.instV2_pic_img img {
+    width: 100%;
+}
+
+.instV2_pic_img1 {
+    display: none;
+}
+
+.footer_custom {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 304px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer_div_Narek {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 303px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0.25turn, #3f3e5a, #404759);
+}
+
+.footer_div_mini_Narek {
+    max-width: 1440px;
+    width: 95%;
+    min-height: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_adress_Narek {
+    max-width: 350px;
+    width: 100%;
+}
+
+.footer_adress_text_Narek {
+    max-width: 220px;
+    width: 100%;
+}
+
+.style_1 {
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+
+.style_2 {
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    color: #F2F2F2;
+}
+
+.footer_hour_Narek {
+    max-width: 200px;
+    width: 100%;
+}
+
+.footer_hour_text_Narek {
+    max-width: 220px;
+    width: 100%;
+}
+
+.footer_gmail_Narek {
+    max-width: 420px;
+    width: 100%;
+}
+
+.footer_gmail_text_Narek {
+    max-width: 220px;
+    width: 100%;
+}
+
+.footer_company_Narek {
+    max-width: 120px;
+    width: 100%;
+}
+
+.footer_company_text_Narek {
+    max-width: 220px;
+    width: 100%;
+}
+
+.footer_backtop_Narek {
+    max-width: 120px;
+    width: 100%;
+}
+
+.footer_backtop_header_Narek {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_backtop_text_Narek {
+    max-width: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input_1 {
+    max-width: 311px;
+    width: 100%;
+    min-height: 48px;
+    background: #FBFBFB;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+}
+
+.input_2 {
+    max-width: 311px;
+    width: 100%;
+    min-height: 48px;
+    background: #404759;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.footer_company_text_ul_Narek {
+    list-style: none;
+}
+
+.icons_group_img img {
+    width: 100%;
+}
+
+.footer_company_text_ul_Narek li a {
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+
+.hour_responsive {
+    display: none;
+}
+
+@media screen and (max-width:1280px) {
+    .invitation {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 480px;
+    }
+
+    .invitation_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 70px;
+    }
+
+    .instV2 {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 992px;
+    }
+
+    .instV2_pic_img {
+        max-width: 371px;
+        width: 100%;
+        min-height: 368px;
+    }
+
+    .main_page_section_frame {
+        max-width: 1180px;
+        width: 100%;
+        min-height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_section_info1_img {
+        max-width: 570px;
+        width: 100%;
+        min-height: 544px;
+    }
+
+    .design_process_section_info1_text {
+        max-width: 477px;
+        width: 100%;
+        min-height: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .design_process_section_info1 {
+        max-width: 1175px;
+        width: 100%;
+        min-height: 544px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .design_process_section_info2_img {
+        max-width: 468px;
+        width: 100%;
+        min-height: 448px;
+    }
+
+    .design_process_section_info2_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    .design_process_section_info2_text {
+        max-width: 537px;
+        width: 100%;
+        min-height: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .info_text1 {
+        min-height: 300px !important;
+    }
+
+    .info2_text1 {
+        min-height: 485px !important;
+    }
+
+    .design_process_section {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 5200px;
+    }
+
+    .design_process_rectangle {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 559px;
+    }
+
+    .design_process_rectangle p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 968px;
+    }
+
+    .design_process_Philosophy {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 900px;
+    }
+
+    .design_process_Philosophy_info_img {
+        max-width: 470px;
+        width: 100%;
+        min-height: 592px;
+    }
+
+    .design_process_Philosophy_info_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #000000;
+        width: 570px;
+    }
+
+    .design_process_Philosophy_info {
+        max-width: 1175px;
+        width: 100%;
+        min-height: 592px;
+    }
+
+    .design_process_Philosophy_info_text {
+        max-width: 570px;
+        width: 100%;
+        min-height: 465px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_cover {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 352px;
+        background-image: url(img/image_181.png);
+        background-size: cover;
+    }
+
+    .footer_adress_Narek {
+        max-width: 310px;
+        width: 100%;
+    }
+
+    .footer_adress_text_Narek {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .footer_hour_Narek {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .footer_hour_text_Narek {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .footer_gmail_Narek {
+        max-width: 370px;
+        width: 100%;
+    }
+
+    .footer_gmail_text_Narek {
+        max-width: 210px;
+        width: 100%;
+    }
+
+    .footer_company_Narek {
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .footer_company_text_Narek {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .footer_backtop_Narek {
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .footer_backtop_text_Narek {
+        max-width: 220px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .input_1 {
+        max-width: 311px;
+        width: 100%;
+        min-height: 48px;
+        background: #FBFBFB;
+        border: 1px solid #F2F2F2;
+        border-radius: 5px;
+    }
+
+    .input_2 {
+        max-width: 311px;
+        width: 100%;
+        min-height: 48px;
+        background: #404759;
+        border: 1px solid #F2F2F2;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .style_1 {
+        font-size: 13px;
+    }
+
+    .style_2 {
+        font-size: 11px;
+    }
+}
+
+.main_page_section_frame1 {
+    max-width: 768px;
+    width: 100%;
+    min-height: 200px;
+    border-bottom: solid 1px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.main_page_section_frame1_text {
+    max-width: 656px;
+    width: 100%;
+    min-height: 119px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_page_section_frame1_text p {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #111111;
+}
+
+.main_page_section_frame1_text ul {
+    max-width: 200px;
+    width: 100%;
+    min-height: 48px;
+}
+
+.main_page_section_frame1_text ul li {
+    max-width: 200px;
+    width: 100%;
+    min-height: 48px;
+    border: 1px solid #111111;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_page_section_frame1_text ul li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+@media screen and (max-width:768px) {
+
+    .workshop_invite_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 256px;
+    }
+
+    .workshop_invite_img img {
+        border-radius: 5px;
+    }
+
+    .workshop_title {
+        display: none;
+    }
+
+    .workshop_invite {
+        max-width: 768px;
+        width: 100%;
+        min-height: 270px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    .workshop {
+        max-width: 768px;
+        width: 100%;
+        min-height: 870px;
+        border-bottom: solid 1px #000000;
+    }
+
+    .workshop_invite_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 262px;
+    }
+
+    .workshop_invite_text p:nth-child(1) {
+        display: block;
+    }
+
+    .workshop_invite_text {
+        max-width: 262px;
+        width: 100%;
+        min-height: 225px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .workshop_detail {
+        max-width: 768px;
+        width: 100%;
+        min-height: 288px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+
+    .workshop_detail_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 217px;
+    }
+
+    .workshop_detail_img img {
+        border-radius: 5px;
+    }
+
+    .workshop_detail_text {
+        max-width: 288px;
+        width: 100%;
+        min-height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+
+    .workshop_detail_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .workshop_approach_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 217px;
+    }
+
+    .workshop_detail_text p:nth-child(2) {
+        display: block;
+    }
+
+    .workshop_approach_text p:nth-child(1) {
+        display: block;
+    }
+
+    .workshop_approach {
+        max-width: 768px;
+        width: 100%;
+        min-height: 265px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .workshop_approach_text {
+        max-width: 300px;
+        width: 100%;
+        min-height: 209px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .workshop_approach_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 305px;
+    }
+
+    .workshop_approach_img img {
+        width: 100%;
+        height: 213px;
+        border-radius: 5px;
+    }
+
+    .workshop_about {
+        display: none;
+    }
+
+    .invitation {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 320px;
+        background-image: url(img/Mask_1Group.jpg);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px #000000;
+    }
+
+    .instV2 {
+        max-width: 768px;
+        width: 100%;
+        min-height: 624px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .instV2_pic_img {
+        max-width: 200px;
+        width: 100%;
+        min-height: 198px;
+    }
+
+    .instV2_pic {
+        max-width: 1360px;
+        width: 100%;
+        min-height: 440px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    .instV2_title p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .footer_div_Narek {
+        min-height: 403px;
+    }
+
+    .footer_div_mini_Narek {
+        min-height: 350px;
+    }
+
+    .footer_hour_Narek {
+        display: none;
+    }
+
+    .hour_responsive {
+        display: block;
+    }
+
+    .input_1 {
+        max-width: 181px;
+    }
+
+    .input_2 {
+        max-width: 181px;
+    }
+
+    .main_page_section_frame {
+        display: none;
+    }
+
+    .main_page_section_frame1 {
+        display: flex;
+    }
+
+    .main_page_section {
+        max-width: 768px;
+        width: 100%;
+        min-height: 480px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/BG_Image.png);
+    }
+
+    .design_process_section_info1_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 272px;
+    }
+
+    .design_process_section_info1_img img {
+        border-radius: 5px;
+    }
+
+    .design_process_section_info1_text p:nth-child(1) {
+        font-family: 'Lenora LC-Trial';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .design_process_section_info1_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 314px;
+    }
+
+    .design_process_section_info1_text {
+        max-width: 314px;
+        width: 100%;
+        min-height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_section_info1 {
+        max-width: 660px;
+        width: 100%;
+        min-height: 272px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .design_process_section_info2_text p:nth-child(1) {
+        font-family: 'Lenora LC-Trial';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000000;
+        width: 262px;
+    }
+
+    .design_process_section_info2_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 314px;
+    }
+
+    .design_process_section_info2_text {
+        max-width: 314px;
+        width: 100%;
+        min-height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_section_info2_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 288px;
+    }
+
+    .design_process_section_info2 {
+        max-width: 690px;
+        width: 100%;
+        min-height: 288px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .text1 {
+        font-family: 'Lenora LC-Trial' !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 28px !important;
+        line-height: 32px !important;
+        text-transform: capitalize !important;
+        color: #000000 !important;
+        width: 228px;
+    }
+
+    .info_text1 {
+        min-height: 230px !important;
+    }
+
+    .design_process_section_info2_img img {
+        border-radius: 5px;
+    }
+
+    .info1_text1 {
+        min-height: 350px !important;
+    }
+
+    .info2_text1 {
+        min-height: 330px !important;
+    }
+
+    .design_process_section {
+        max-width: 768px;
+        width: 100%;
+        min-height: 2480px;
+    }
+
+    .design_process_rectangle {
+        max-width: 768px;
+        width: 100%;
+        min-height: 307px;
+    }
+
+    .design_process_rectangle p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 656px;
+    }
+
+    .design_process_Philosophy_info_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 320px;
+    }
+
+    .design_process_Philosophy_info_img img {
+        border-radius: 5px;
+    }
+
+    .design_process_Philosophy_info_text {
+        max-width: 314px;
+        width: 100%;
+        min-height: 270px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_Philosophy_info_text p:nth-child(1) {
+        font-family: 'Lenora LC-Trial';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .design_process_Philosophy_info_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 314px;
+    }
+
+    .design_process_Philosophy_info {
+        max-width: 660px;
+        width: 100%;
+        min-height: 359px;
+    }
+
+    .design_process_Philosophy {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 600px;
+    }
+
+    .design_process_cover {
+        max-width: 768px;
+        width: 100%;
+        min-height: 212px;
+        background-image: url(img/image_181.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footer_div_mini_Narek {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .workshop {
+        display: none;
+    }
+
+    .workshop1 {
+        display: flex;
+    }
+
+    .workshop1 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 1590px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .invitation {
+        max-width: 500px;
+        width: 100%;
+        min-height: 240px;
+        background-image: url(img/Mask_Group.png);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px #000000;
+    }
+
+    .invitation_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+
+    }
+
+    .invitation_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0px;
+        width: 214px;
+    }
+
+    .invitation_text ul li {
+        max-width: 195px;
+        width: 100%;
+        min-height: 48px;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .invitation_text {
+        max-width: 424px;
+        width: 100%;
+        min-height: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .instV2 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 440px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .instV2_pic {
+        max-width: 500px;
+        width: 100%;
+        min-height: 330px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    .instV2_pic_img1 {
+        display: none;
+    }
+
+    .instV2_pic_img {
+        max-width: 140px;
+        width: 100%;
+        min-height: 106px;
+    }
+
+    .main_page_section {
+        max-width: 500px;
+        width: 100%;
+        min-height: 320px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/BG_Image.png);
+    }
+
+    .main_page_section_frame1 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 200px;
+    }
+
+    .design_process_section_info1 {
+        max-width: 660px;
+        width: 100%;
+        min-height: 570px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .design_process_section_info1_img {
+        max-width: 264px;
+        width: 100%;
+        min-height: 240px;
+    }
+
+    .design_process_section_info1_text {
+        max-width: 264px;
+        width: 100%;
+        min-height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_section_info1_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 262px;
+    }
+
+    .design_process_section_info2 {
+        max-width: 690px;
+        width: 100%;
+        min-height: 610px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .design_process_section_info2_img {
+        max-width: 264px;
+        width: 100%;
+        min-height: 240px;
+    }
+
+    .design_process_section_info2_text {
+        max-width: 264px;
+        width: 100%;
+        min-height: 285px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_section_info2_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .info_text1 {
+        min-height: 255px !important;
+    }
+
+    .info1_text1 {
+        min-height: 421px !important;
+    }
+
+    .info2_text1 {
+        min-height: 370px !important;
+    }
+
+    .design_process_section {
+        max-width: 500px;
+        width: 100%;
+        min-height: 4600px;
+    }
+
+    .design_process_rectangle {
+        max-width: 500px;
+        width: 100%;
+        min-height: 528px;
+    }
+
+    .design_process_rectangle p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 264px;
+    }
+
+    .design_process_Philosophy_info {
+        max-width: 660px;
+        width: 100%;
+        min-height: 740px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .design_process_Philosophy_info_img {
+        max-width: 264px;
+        width: 100%;
+        min-height: 240px;
+    }
+
+    .design_process_Philosophy_info_text {
+        max-width: 264px;
+        width: 100%;
+        min-height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_Philosophy_info_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .design_process_cover {
+        max-width: 500px;
+        width: 100%;
+        min-height: 240px;
+        background-image: url(img/image_181.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .workshop {
+        display: none;
+    }
+
+    .workshop1 {
+        display: flex;
+    }
+
+    .workshop1 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 1590px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .invitation {
+        max-width: 500px;
+        width: 100%;
+        min-height: 240px;
+        background-image: url(img/Mask_Group.png);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px #000000;
+    }
+
+    .invitation_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+
+    }
+
+    .invitation_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0px;
+        width: 214px;
+    }
+
+    .invitation_text ul li {
+        max-width: 195px;
+        width: 100%;
+        min-height: 48px;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .invitation_text {
+        max-width: 424px;
+        width: 100%;
+        min-height: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .instV2 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 440px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .instV2_pic {
+        max-width: 500px;
+        width: 100%;
+        min-height: 330px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    .instV2_pic_img1 {
+        display: none;
+    }
+
+    .instV2_pic_img {
+        max-width: 140px;
+        width: 100%;
+        min-height: 106px;
+    }
+
+    .main_page_section {
+        max-width: 320px;
+        width: 100%;
+        min-height: 320px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/BG_Image.png);
+    }
+
+    .main_page_section_frame1 {
+        max-width: 320px;
+        width: 100%;
+        min-height: 200px;
+    }
+
+    .design_process_section_info1 {
+        max-width: 660px;
+        width: 100%;
+        min-height: 570px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .design_process_section_info1_img {
+        max-width: 264px;
+        width: 100%;
+        min-height: 240px;
+    }
+
+    .design_process_section_info1_text {
+        max-width: 264px;
+        width: 100%;
+        min-height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_section_info1_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 262px;
+    }
+
+    .design_process_section_info2 {
+        max-width: 690px;
+        width: 100%;
+        min-height: 610px;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .design_process_section_info2_img {
+        max-width: 264px;
+        width: 100%;
+        min-height: 240px;
+    }
+
+    .design_process_section_info2_text {
+        max-width: 264px;
+        width: 100%;
+        min-height: 285px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_section_info2_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .info_text1 {
+        min-height: 255px !important;
+    }
+
+    .info1_text1 {
+        min-height: 421px !important;
+    }
+
+    .info2_text1 {
+        min-height: 370px !important;
+    }
+
+    .design_process_section {
+        max-width: 320px;
+        width: 100%;
+        min-height: 4600px;
+    }
+
+    .design_process_rectangle {
+        max-width: 320px;
+        width: 100%;
+        min-height: 528px;
+    }
+
+    .design_process_rectangle p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 264px;
+    }
+
+    .design_process_Philosophy_info {
+        max-width: 660px;
+        width: 100%;
+        min-height: 740px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .design_process_Philosophy_info_img {
+        max-width: 264px;
+        width: 100%;
+        min-height: 240px;
+    }
+
+    .design_process_Philosophy_info_text {
+        max-width: 264px;
+        width: 100%;
+        min-height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .design_process_Philosophy_info_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .design_process_cover {
+        max-width: 320px;
+        width: 100%;
+        min-height: 240px;
+        background-image: url(img/image1812.png);
+        background-size: cover;
+    }
+}

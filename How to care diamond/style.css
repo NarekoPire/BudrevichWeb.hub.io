@@ -1,0 +1,905 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin:auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.firstlist{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 40px;
+    background: #404759;
+    position: fixed;
+    position: relative;
+
+}
+
+.firstlist ul{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    min-height: 40px;
+    align-content: space-between;
+    align-items: center;
+}
+
+.firstlist a{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;    
+    text-transform: capitalize;
+    color: #F5F5F5;
+}
+
+
+.secondlist{
+    max-width: 1440px;
+    width: 100%;
+    min-height:50px;
+    border:Solid 1px;
+    position: fixed;
+    background-color: white;
+    position: relative;
+}
+         
+
+.secondlist1{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 0px;
+    height: 0px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    transition: 1s;
+    
+}
+
+
+.secondlist2{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 50px;
+    border:Solid 1px;
+}
+.secondlist:hover .secondlist1{
+    display: flex;
+    min-height: 100px;
+}
+
+
+.secondlist1one{
+    max-width: 100px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.secondlist1three{
+    max-width: 100px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.secondlist1two{
+    max-width: 1000px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.secondlist21{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 50px;
+    
+}
+.secondlist21 ul{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secondlist21 a{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.secondlist22{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 50px;
+    display: none;
+    
+}
+.secondlist22 ul{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.threelist{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 500px;
+    border: Solid 1px;
+    z-index: 7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    position: absolute;
+    background-color: white;
+}
+
+.threelist1{
+    max-width: 400px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.threelist2{
+    max-width: 800px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.threelist1one a{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #000000;
+}
+.threelist1two span{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.threelist1two {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    justify-content: space-around;
+}
+
+.threelist1two ul{
+    display: flex;
+    min-height: 150px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.threelist1one ul{
+    display: flex;
+    min-height: 50px;
+}
+.threelist2one{
+    max-width: 280px;
+    width: 100%;
+    min-height: 400px;
+ 
+  
+}
+.threelist2two span{
+    max-width: 300px;
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.fourlist{
+    max-width: 800px;
+    width: 100%;
+    min-height: 500px;
+    border: Solid 1px;
+    display: flex;
+    align-items: flex-start;
+    display: none;
+    z-index: 5;
+    position: absolute;
+    background-color: white;
+}
+
+
+.fourlist1{
+    max-width: 500px;
+    width: 100%;
+    min-height: 400px;
+    display:none;
+}
+.fourlist2{
+    max-width: 200px;
+    width: 100%;
+    min-height: 300px;
+    display:none;
+}
+.fourlist2 ul{
+    max-width: 200px;
+    width: 100%;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fourlist1 ul{
+    max-width: 200px;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.a6{
+    margin-left: 50px;
+    display: none;
+
+}
+
+
+.fourlist a{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #000000;
+
+}
+
+
+.fourlist1two{
+    max-width: 91px;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .secondlist21{
+      display: none;;
+    }
+    .secondlist22 {
+      display: block;
+    }
+    .a2{
+      display:none;
+    }
+    .secondlist:hover .secondlist1{
+      display:none;
+    }
+    
+    
+    
+    
+    .fourlist1{
+      display: flex;
+      flex-direction: column;
+    }
+    
+      .fourlist2{
+        display: none;
+    
+      }
+      .a51{
+        transform: rotate(260deg);
+       }
+     
+    
+    
+    }
+    @media screen and (max-width:500px) {
+        .a1{
+            display:none
+        }
+        .a2{
+          display:block;;
+        }
+        .secondlist:hover .secondlist1{
+          display:none;
+        }
+    
+        .a6{
+          display: block;
+          max-width: 200px;
+          width: 100%;
+        } 
+    
+    
+       .fourlist2{
+        display:none;
+       }
+       .a51{
+        transform: rotate(0deg);
+       }
+       
+    }
+
+
+
+
+.hov_to_care_Narek{
+    max-width: 1440px;
+    width: 100%;
+    background-image: url(img/how_to.png);
+    background-size: auto;
+    background-repeat:no-repeat ;
+    min-height: 624px;
+    padding: 150px 0px 0px 50px;
+}
+.how_head_text_Narek{
+    max-width: 900px;
+    width: 100%;
+}
+.how_head_text_Narek span{
+    font-family: 'Lenora LC-Trial', arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+.how_button_narek{
+    max-width: 242px;
+    width: 100%;
+    min-height: 64px;
+}
+.how_button_narek button{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #00000000;
+    max-width: 242px;
+    width: 100%;
+    min-height: 64px;
+    font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.text_Narek{
+    max-width: 1440px;
+    width: 100%;
+    padding: 0px 169px 0px 169px;
+}
+.text_1 span{
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+}
+.header_text_1 span{
+    font-family: 'Lenora LC-Trial', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000000;
+}
+.header_text_ul li{
+    font-family: 'Proxima Nova' , Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    list-style:inside;
+}
+.header_text_2 span{ 
+    font-family: 'Proxima Nova' ,  arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+}
+.info_2{
+    display: none;
+}
+@media screen and (max-width:850px) {
+    .text_1 span{
+        font-family: 'Proxima Nova', arial;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+    }
+    .header_text_1 span{
+        font-family: 'Lenora LC-Trial', Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+    .header_text_ul li{
+        font-family: 'Proxima Nova' , Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        list-style:inside;
+    }
+    .header_text_2 span{ 
+        font-family: 'Proxima Nova' ,  arial;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+    }
+    .shop_header span{
+        font-size:30px;
+    }
+    .text_Narek{
+        padding: 0px 60px 0px 60px;
+    }
+    .how_to_info_Narek{
+        display: none;
+    }
+    .info_2{
+        display: flex;
+        z-index: 3;
+        flex-direction: column;
+        align-items: center;
+    }
+    .how_button_2 button{
+        font-family: 'Proxima Nova' , arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #111111;
+        border: 1px solid #111111;
+        border-radius: 5px;
+    }
+    .how_head_2{
+        max-width: 400px;
+        width: 100%;
+    }
+    .how_head_2 span{
+        font-family: 'Lenora Premium' , Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #111111;
+    }
+    .hov_to_care_Narek{
+        background-image: url(img/how_to_img_res.png);
+        background-size: cover;
+    }
+    .why_icons{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+.why_Narek{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-top:solid 2px rgb(91, 91, 91) ;
+    border-bottom:solid 2px rgb(91, 91, 91) ;
+}
+.why_icons{
+    display: flex;
+}
+.why_icons_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    padding: 30px;
+}
+.ehy_icontext{
+    max-width: 270px;
+}
+.ehy_icontext span{
+    font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.why_text span{
+    font-family: 'Proxima Nova' Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.shop_by_category_Narek{
+    max-width: 1440px;
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+}
+.shop_header span{
+    font-family: 'Lenora Premium', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.shop_div{
+    max-width: 380px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.shop_div img{
+    width: 100%;
+}
+.shop_photos_div{
+    display: flex;
+    justify-content: space-around;
+}
+.shop_header{
+    display: flex;
+    justify-content: center;
+}
+.shop_div span{
+    font-family: 'Proxima Nova',Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+.footer_div_Narek{
+    max-width: 1440px;
+    width: 100%;
+    min-height: 303px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( 0.25turn,#3f3e5a, #404759);
+}
+.footer_div_mini_Narek{
+    max-width: 1440px;
+    width: 95%;
+    min-height: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_adress_Narek{
+    max-width: 350px;
+    width: 100%;
+}
+.footer_adress_text_Narek{
+    max-width: 220px;
+    width: 100%;
+}
+.style_1{
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+.style_2{
+    font-family: 'Proxima Nova' , arial;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    color: #F2F2F2;
+}
+
+.footer_hour_Narek{
+    max-width: 200px;
+    width: 100%;
+}
+.footer_hour_text_Narek{
+    max-width: 220px;
+    width: 100%;
+}
+
+.footer_gmail_Narek{
+    max-width: 420px;
+    width: 100%;
+    padding: 0px 20px 20px 20px;
+}
+.footer_gmail_text_Narek{
+    max-width: 220px;
+    width: 100%;
+}
+.footer_company_Narek{
+    max-width: 120px;
+    width: 100%;
+}
+.footer_company_text_Narek{
+    max-width: 220px;
+    width: 100%;
+}
+.footer_backtop_Narek{
+    max-width: 120px;
+    width: 100%;
+}
+.footer_backtop_header_Narek{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer_backtop_text_Narek{
+    max-width: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.input_1{
+    max-width: 311px;
+    width: 100%;
+    min-height: 48px;
+    background: #FBFBFB;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+}
+.input_2{
+    max-width: 311px;
+    width: 100%;
+    min-height: 48px;
+    background: #404759;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.footer_company_text_ul_Narek{
+    list-style: none;
+}
+.footer_company_text_ul_Narek li a{
+    font-family: 'Proxima Nova' , arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+.hour_responsive{
+    display: none;
+}
+
+@media screen and (max-width:1280px) {
+    .footer_adress_Narek{
+        max-width: 310px;
+        width: 100%;
+    }
+    .footer_adress_text_Narek{
+        max-width: 220px;
+        width: 100%;
+    }
+    .footer_hour_Narek{
+        max-width: 200px;
+        width: 100%;
+    }
+    .footer_hour_text_Narek{
+        max-width: 220px;
+        width: 100%;
+    }
+    .footer_gmail_Narek{
+        max-width: 370px;
+        width: 100%;
+    }
+    .footer_gmail_text_Narek{
+        max-width: 210px;
+        width: 100%;
+    }
+    .footer_company_Narek{
+        max-width: 120px;
+        width: 100%;
+    }
+    .footer_company_text_Narek{
+        max-width: 220px;
+        width: 100%;
+    }
+    .footer_backtop_Narek{
+        max-width: 120px;
+        width: 100%;
+    }
+    .footer_backtop_text_Narek{
+        max-width: 220px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .input_1{
+        max-width: 311px;
+        width: 100%;
+        min-height: 48px;
+        background: #FBFBFB;
+        border: 1px solid #F2F2F2;
+        border-radius: 5px;
+    }
+    .input_2{
+        max-width: 311px;
+        width: 100%;
+        min-height: 48px;
+        background: #404759;
+        border: 1px solid #F2F2F2;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
+    .style_1{
+        font-size: 13px;
+    }
+    .style_2{
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .footer_div_Narek{
+        min-height: 403px;
+    }
+    .footer_div_mini_Narek{
+        min-height: 350px;
+    }
+    .footer_hour_Narek{
+        display: none;
+    }
+    .hour_responsive{
+        display: block;
+    }
+    .input_1{
+        max-width: 181px;
+    }
+    .input_2{
+        max-width: 181px;
+    }
+}
+@media screen and (max-width:470px) {
+    .footer_div_mini_Narek{
+        flex-direction: column;
+    }
+    .footer_gmail_Narek{
+        padding: 0px;
+    }
+    .shop_photos_div{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

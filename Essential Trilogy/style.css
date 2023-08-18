@@ -1,0 +1,1102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.aiso_like {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 736px;
+}
+
+.slider {
+    border: 2px solid black;
+    width: 1440px;
+    height: 736px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    width: 4320px;
+    height: 256px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.slider-line img:nth-child(1) {
+    width: 536px;
+    height: 442px;
+}
+
+.slider-line img:nth-child(2) {
+    width: 840px;
+    height: 692px;
+}
+
+.slider-line img:nth-child(2) {
+    width: 518px;
+    height: 428px;
+}
+
+.midnight_card_img {
+    max-width: 536px;
+    width: 100%;
+    min-height: 442px;
+}
+
+.diamonds_graded {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #000000;
+    overflow: hidden;
+}
+
+.diamonds_graded_text {
+    max-width: 537px;
+    width: 100%;
+    min-height: 182px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.diamonds_graded_text p:nth-child(1) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.diamonds_graded_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 497px;
+}
+
+.diamonds_graded_img {
+    max-width: 490px;
+    width: 100%;
+    min-height: 137px;
+}
+
+.diamonds_graded_img img {
+    width: 100%;
+}
+
+.essential_product {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.essential_product_slider {
+    max-width: 715px;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    width: 700px;
+}
+
+.product_slide_container {
+    width: 537px;
+    height: 514px;
+    overflow: hidden;
+}
+
+.slide_container_sliderline {
+    width: 1611px;
+    height: 514px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.but1 {
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    cursor: pointer;
+}
+
+.but2 {
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.rectangle1 {
+    width: 42px;
+    height: 4px;
+    background: #707070;
+    border: 1px solid #707070;
+    border-radius: 100px;
+    position: absolute;
+    left: 300px;
+    bottom: 0;
+}
+
+.rectangle2 {
+    width: 42px;
+    height: 4px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 100px;
+    position: absolute;
+    left: 370px;
+    bottom: 0;
+}
+
+.rectangle3 {
+    width: 42px;
+    height: 4px;
+    background: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 100px;
+    position: absolute;
+    left: 440px;
+    bottom: 0;
+}
+
+.essential_product_round {
+    max-width: 584px;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title2 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.title3 {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 340px;
+}
+
+.metal {
+    max-width: 199px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rose {
+    max-width: 199px;
+    width: 100%;
+    min-height: 32px;
+}
+
+.rose1 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.rose2 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.ellipse {
+    max-width: 140px;
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ellipse1 {
+    max-width: 24px;
+    width: 100%;
+    min-height: 24px;
+    background: #E7EAEB;
+    border-radius: 12px;
+}
+
+.ellipse2 {
+    max-width: 24px;
+    width: 100%;
+    min-height: 24px;
+    background: #EFD9A7;
+    border-radius: 12px;
+}
+
+.ellipse3 {
+    max-width: 24px;
+    width: 100%;
+    min-height: 24px;
+    background: #F7CCB3;
+    border-radius: 12px;
+}
+
+.ellipse4 {
+    max-width: 24px;
+    width: 100%;
+    min-height: 24px;
+    background: #E7EAEB;
+    border-radius: 12px;
+}
+
+.band {
+    max-width: 525px;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.band1 {
+    max-width: 240px;
+    width: 100%;
+    min-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #000000;
+}
+
+.price {
+    max-width: 240px;
+    width: 100%;
+    min-height: 21px;
+}
+
+.price span {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.price span:nth-child(2) {
+    font-weight: bold;
+}
+
+.Diamonds_band span {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.Diamonds_band span:nth-child(2) {
+    font-weight: bold;
+}
+
+.add_card {
+    max-width: 525px;
+    width: 100%;
+    min-height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but3 {
+    max-width: 254px;
+    width: 100%;
+    min-height: 64px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.but4 {
+    max-width: 254px;
+    width: 100%;
+    min-height: 64px;
+    border: 1px solid #000000;
+    background-color: white;
+    border-radius: 5px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.diamonds_container {
+    max-width: 525px;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.description {
+    max-width: 525px;
+    width: 100%;
+    min-height: 40px;
+    border-bottom: solid 1px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.description span {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.product_care {
+    max-width: 525px;
+    width: 100%;
+    min-height: 40px;
+    border-bottom: solid 1px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.product_care span {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.size_chart {
+    max-width: 525px;
+    width: 100%;
+    min-height: 40px;
+    border-bottom: solid 1px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.size_chart span {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.note_about_pricing {
+    max-width: 525px;
+    width: 100%;
+    min-height: 40px;
+    border-bottom: solid 1px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.note_about_pricing span {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.clos {
+    max-width: 584px;
+    width: 100%;
+    min-height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.description_info {
+    max-width: 593px;
+    width: 100%;
+    min-height: 422px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.product_care_info {
+    max-width: 593px;
+    width: 100%;
+    min-height: 422px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.size_chart_info {
+    max-width: 593px;
+    width: 100%;
+    min-height: 422px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.note_about_pricing_info {
+    max-width: 593px;
+    width: 100%;
+    min-height: 422px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.description_info_title {
+    max-width: 540px;
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description_info_title p {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #252525;
+}
+
+.description_info_text {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 536px;
+    margin-top: 30px;
+}
+
+.description_info_title img {
+    cursor: pointer;
+}
+
+.property {
+    max-width: 593px;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.property_variant {
+    max-width: 85px;
+    width: 100%;
+    min-height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.property_variant p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    width: 85px;
+    height: 35px;
+}
+
+.property_variant ul {
+    max-width: 85px;
+    width: 100%;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title4 {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    display: none;
+    width: 715px;
+}
+
+@media screen and (max-width: 1280px) {
+    .diamonds_graded {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: solid 1px #000000;
+        overflow: hidden;
+    }
+
+    .title {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .diamonds_graded_text p:nth-child(1) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .diamonds_graded_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #000000;
+        width: 314px;
+    }
+
+    .diamonds_graded {
+        max-width: 768px;
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: none;
+    }
+
+    .diamonds_graded_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 88px;
+    }
+
+    .diamonds_graded_text {
+        max-width: 284px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .essential_product {
+        max-width: 1440px;
+        width: 100%;
+        min-height: 800px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .title2 {
+        display: none;
+    }
+
+    .title3 {
+        display: none;
+    }
+
+    .title4 {
+        display: block;
+    }
+
+    .but1 {
+        border: none;
+        background-color: white;
+        position: absolute;
+        top: 460px;
+        left: 50px;
+        cursor: pointer;
+    }
+
+    .but2 {
+        border: none;
+        background-color: white;
+        position: absolute;
+        top: 460px;
+        right: 50px;
+        cursor: pointer;
+    }
+
+    .essential_product_round {
+        max-width: 584px;
+        width: 100%;
+        min-height: 780px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .add_card {
+        max-width: 440px;
+        width: 100%;
+        min-height: 150px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .clos {
+        max-width: 584px;
+        width: 100%;
+        min-height: 460px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .metal {
+        max-width: 440px;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .band {
+        max-width: 440px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .band1 {
+        max-width: 440px;
+        width: 100%;
+        min-height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 1px #000000;
+    }
+
+    .price {
+        max-width: 440px;
+        width: 100%;
+        min-height: 21px;
+    }
+
+    .diamonds_container {
+        max-width: 440px;
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .essential_product_round {
+        max-width: 584px;
+        width: 100%;
+        min-height: 780px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .title4 {
+        display: block;
+        width: 450px;
+    }
+
+    .but1 {
+        border: none;
+        background-color: white;
+        position: absolute;
+        top: 400px;
+        left: 20px;
+        cursor: pointer;
+    }
+
+    .but2 {
+        border: none;
+        background-color: white;
+        position: absolute;
+        top: 400px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .rectangle3 {
+        width: 42px;
+        height: 4px;
+        background: #FFFFFF;
+        border: 1px solid #707070;
+        border-radius: 100px;
+        position: absolute;
+        left: 290px;
+        bottom: 0;
+    }
+
+    .rectangle2 {
+        width: 42px;
+        height: 4px;
+        background: #FFFFFF;
+        border: 1px solid #707070;
+        border-radius: 100px;
+        position: absolute;
+        left: 225px;
+        bottom: 0;
+    }
+
+    .rectangle1 {
+        width: 42px;
+        height: 4px;
+        background: #FFFFFF;
+        border: 1px solid #707070;
+        border-radius: 100px;
+        position: absolute;
+        left: 160px;
+        bottom: 0;
+    }
+
+    .description_info {
+        max-width: 450px;
+        width: 100%;
+        min-height: 422px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    .description_info_text {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        width: 460px;
+        margin-top: 30px;
+    }
+
+    .product_care_info {
+        max-width: 450px;
+        width: 100%;
+        min-height: 422px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    .size_chart_info {
+        max-width: 450px;
+        width: 100%;
+        min-height: 422px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    .note_about_pricing_info {
+        max-width: 450px;
+        width: 100%;
+        min-height: 422px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .add_card {
+        max-width: 440px;
+        width: 100%;
+        min-height: 150px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .clos {
+        max-width: 584px;
+        width: 100%;
+        min-height: 460px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .metal {
+        max-width: 440px;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .band {
+        max-width: 440px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .band1 {
+        max-width: 440px;
+        width: 100%;
+        min-height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 1px #000000;
+    }
+
+    .price {
+        max-width: 440px;
+        width: 100%;
+        min-height: 21px;
+    }
+
+    .diamonds_container {
+        max-width: 440px;
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .essential_product_round {
+        max-width: 584px;
+        width: 100%;
+        min-height: 780px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .title4 {
+        display: block;
+        width: 450px;
+    }
+
+    .but1 {
+        border: none;
+        background-color: white;
+        position: absolute;
+        top: 400px;
+        left: 20px;
+        cursor: pointer;
+    }
+
+    .but2 {
+        border: none;
+        background-color: white;
+        position: absolute;
+        top: 400px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .rectangle3 {
+        width: 42px;
+        height: 4px;
+        background: #FFFFFF;
+        border: 1px solid #707070;
+        border-radius: 100px;
+        position: absolute;
+        left: 290px;
+        bottom: 0;
+    }
+
+    .rectangle2 {
+        width: 42px;
+        height: 4px;
+        background: #FFFFFF;
+        border: 1px solid #707070;
+        border-radius: 100px;
+        position: absolute;
+        left: 225px;
+        bottom: 0;
+    }
+
+    .rectangle1 {
+        width: 42px;
+        height: 4px;
+        background: #FFFFFF;
+        border: 1px solid #707070;
+        border-radius: 100px;
+        position: absolute;
+        left: 160px;
+        bottom: 0;
+    }
+
+    .description_info {
+        max-width: 450px;
+        width: 100%;
+        min-height: 422px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    .description_info_text {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #000000;
+        width: 460px;
+        margin-top: 30px;
+    }
+
+    .product_care_info {
+        max-width: 450px;
+        width: 100%;
+        min-height: 422px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    .size_chart_info {
+        max-width: 450px;
+        width: 100%;
+        min-height: 422px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+
+    .note_about_pricing_info {
+        max-width: 450px;
+        width: 100%;
+        min-height: 422px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+}
+
+.reviews {
+    border-bottom: solid 1px #000000;
+}

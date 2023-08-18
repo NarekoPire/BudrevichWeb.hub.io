@@ -1,0 +1,562 @@
+
+@media screen and (max-width:800px) {
+.secondlist21{
+  display: none;;
+}
+.secondlist22 {
+  display: block;
+}
+.a2{
+  display:none;
+}
+.secondlist:hover .secondlist1{
+  display:none;
+}
+
+
+
+
+.fourlist1{
+  display: flex;
+  flex-direction: column;
+}
+
+  .fourlist2{
+    display: none;
+
+  }
+  .a51{
+    transform: rotate(260deg);
+   }
+ 
+
+
+}
+@media screen and (max-width:500px) {
+    .a1{
+        display:none
+    }
+    .a2{
+      display:block;;
+    }
+    .secondlist:hover .secondlist1{
+      display:none;
+    }
+
+    .a6{
+      display: block;
+      max-width: 200px;
+      width: 100%;
+    } 
+
+
+   .fourlist2{
+    display:none;
+   }
+   .a51{
+    transform: rotate(0deg);
+   }
+}
+
+
+
+
+@media screen and (max-width:799px) {
+  .fourlist2{
+    display:none;
+  }
+  .fourlist{
+    display:none;
+    border:0
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width:1100px){
+  .sixlist1 {
+    max-width: 500px;
+  }
+ 
+  .sixlist2 span{
+    min-height: 200px;
+  }
+  .sixlist2  {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width:850px){
+  .sixlist1 {
+    max-width: 300px;
+ 
+  }
+  .sixlist2  {
+    max-width: 300px;
+    min-height: 851px;
+  }
+  .sixlist2a .frt{
+    display:none;
+  }
+  
+ 
+  .sixlist2a span{
+    min-height: 135px;
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+min-height: 134px;
+  }
+  .sixlist2a h3{
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    max-width: 200px;
+    width: 100%;
+    min-height: 77px;
+
+  }
+  .slxlist1a span{
+    min-height: 135px;
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+min-height: 85px;
+  }
+  .slxlist1a h3{
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    max-width: 200px;
+    width: 100%;
+    min-height: 77px;
+  }
+  .sixlist1{
+    max-width: 300px;
+    min-height: 550px;
+  }
+  .sixlist1b{
+    max-width: 600px;
+    width: 100%;
+    min-height: 255px;
+  }
+  .sixlist2{
+    max-width: 300px;
+    min-height: 585px;
+  }
+  .sixlist2b{
+    max-width: 600px;
+    width: 100%;
+    min-height: 255px;
+  }
+ 
+}
+
+
+@media screen and (max-width:320px) {
+  .sixlist{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+ .sevellist1 {
+  max-width: 500px;
+  width: 100%;
+ }
+ .sevellist2 {
+  max-width: 500px;
+  width: 100%;
+ }
+
+ 
+}
+@media screen and (max-width:850px){
+ 
+ 
+  .sevellist2a .frt{
+    display:none;
+  }
+  .sevellist2b{
+    max-width: 600px;
+    width: 100%;
+    min-height: 244px;
+    background-image: url(./img1/45.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: contain;
+
+  }
+  .sevellist2a .zxc{
+    display: block;
+    min-height: 70px;
+  }
+ 
+  .sevellist2a span{
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+min-height: 135px;
+  }
+  .sevellist2a h3{
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    max-width: 300px;
+    width: 100%;
+    min-height: 77px;
+
+  }
+  .sevellist1a span{
+    min-height: 135px;
+    font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+min-height: 85px;
+  }
+  .sevellist1a h3{
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    max-width: 300px;
+    width: 100%;
+    min-height: 77px;
+  }
+  .sevellist1{
+    max-width: 300px;
+    min-height: 550px;
+  }
+  .sevellist1b{
+    max-width: 600px;
+    width: 100%;
+    min-height: 255px;
+  }
+  .sevellist2{
+    max-width: 300px;
+    min-height: 747px;
+  }
+  .sevellistb{
+    max-width: 600px;
+    width: 100%;
+    min-height: 255px;
+  }
+ 
+ 
+}
+
+
+@media screen and (max-width:320px) {
+  .sevellist{
+    display: flex;
+    flex-direction: column;
+  }
+  .sevellist2b {
+    min-height: 300px;
+  }
+  .sevellist2a{
+    min-height: 325px;
+  }
+  .sevellist2{
+    min-height: 575px;
+  }
+ 
+  .sevellist2a h3{
+    min-height:111px ;
+  }
+
+  .eightlist2a {
+    min-height:421px ;
+  }
+  .sevellist1a h3 {
+    min-height:111px ;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+  .eightlist1 {
+   max-width: 500px;
+   width: 100%;
+  }
+  .eightlist2 {
+   max-width: 500px;
+   width: 100%;
+  }
+  .eightlist span{
+    min-height: 180px;
+  }
+ }
+ @media screen and (max-width:850px){
+  
+  
+   .eightlist2a .frt{
+     display:none;
+   }
+   .eightlist2b{
+     max-width: 600px;
+     width: 100%;
+     min-height: 244px;
+     background-repeat: no-repeat;
+     overflow: hidden;
+     background-size: contain;
+ 
+   }
+   
+  
+   .eightlist2a span{
+     font-family: 'Proxima Nova';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;
+ color: #000000;
+ flex: none;
+ order: 1;
+ flex-grow: 0;
+ min-height: 156px;
+   }
+   .eightlist2a h3{
+     font-family: 'Lenora Premium';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 32px;
+     text-transform: capitalize;
+     color: #000000;
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+     max-width: 300px;
+     width: 100%;
+     min-height: 77px;
+ 
+   }
+   .eightlist1a span{
+     min-height: 135px;
+     font-family: 'Proxima Nova';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;
+ color: #000000;
+ flex: none;
+ order: 1;
+ flex-grow: 0;
+ min-height: 85px;
+   }
+   .eightlist1a h3{
+     font-family: 'Lenora Premium';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 32px;
+     text-transform: capitalize;
+     color: #000000;    
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+     max-width: 300px;
+     width: 100%;
+     min-height: 77px;
+   }
+   .eightlist1{
+     max-width: 300px;
+     min-height: 550px;
+   }
+   .eightlist1b{
+     max-width: 600px;
+     width: 100%;
+     min-height: 255px;
+     background-image: url(./img1/52.png);
+   }
+   .eightlist2{
+     max-width: 300px;
+     min-height: 854px;
+   }
+   .eightlistb{
+     max-width: 600px;
+     width: 100%;
+     min-height: 255px;
+   }
+  
+  
+ }
+ 
+ 
+ @media screen and (max-width:320px) {
+   .eightlist{
+     display: flex;
+     flex-direction: column;
+   }
+   .eightlist2b {
+     min-height: 300px;
+   }
+   .eightlist2a{
+     min-height: 325px;
+   }
+   .eightlist2{
+     min-height: 575px;
+   }
+  
+   .eightlist2a h3{
+     min-height:111px ;
+   }
+   .eightlist1a h3{
+     min-height:111px ;
+   }
+ }
+
+
+
+
+
+
+
+ 
+
+@media screen and (max-width:1200px){
+  .ninelist1 {
+   max-width: 500px;
+   width: 100%;
+  }
+ 
+  .ninelist span{
+    min-height: 180px;
+  }
+  .ninelist1b{
+    background-image: url(./img1/53.png);
+  }
+ }
+ @media screen and (max-width:850px){
+
+   .ninelist1a span{
+     font-family: 'Proxima Nova';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;
+ color: #000000;
+ flex: none;
+ order: 1;
+ flex-grow: 0;
+ min-height: 125px;
+   }
+   .ninelist1a h3{
+     font-family: 'Lenora Premium';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 28px;
+     line-height: 32px;
+     text-transform: capitalize;
+     color: #000000;    
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+     max-width: 300px;
+     width: 100%;
+     min-height: 77px;
+   }
+   .ninelist1{
+     max-width: 300px;
+     min-height: 550px;
+   }
+   .ninelist1b{
+     max-width: 600px;
+     width: 100%;
+     min-height: 255px;
+     background-image: url(./img1/53.png);
+   }
+ 
+   .ninelistb{
+     max-width: 600px;
+     width: 100%;
+     min-height: 255px;
+   }
+  
+  
+ }
+ 
+ 
+ @media screen and (max-width:320px) {
+   .ninelist{
+     display: flex;
+     flex-direction: column;
+   }
+
+   .ninelist  h3{
+     min-height:111px ;
+   }
+  
+ }

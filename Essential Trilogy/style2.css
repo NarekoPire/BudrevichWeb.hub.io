@@ -1,0 +1,4738 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
+.menu {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 74px;
+}
+
+
+.gradient_img_container1 {
+    max-width: 424px;
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gradient_img_container1 p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.workshop_detail_img img {
+    width: 100%;
+}
+
+.workshop_approach_img img {
+    width: 100%;
+}
+
+.workshop_approach_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 305px;
+    display: none;
+}
+
+.cover_section {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 768px;
+    background-image: url(img/BG_Image.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    overflow: hidden;
+}
+
+.opening {
+    max-width: 1290px;
+    width: 100%;
+    min-height: 500px;
+}
+
+.lenora {
+    max-width: 763px;
+    width: 100%;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lenora p:nth-child(1) {
+    font-family: 'Lenora Premium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    max-width: 400px;
+    width: 100%;
+}
+
+.lenora p:nth-child(2) {
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 410px;
+    width: 100%;
+}
+
+.opening ul {
+    max-width: 761px;
+    width: 100%;
+    min-height: 125px;
+    display: flex;
+    align-items: center;
+}
+
+.button_book {
+    max-width: 197px;
+    width: 100%;
+    min-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #FFFFFF;
+    border-radius: 6px;
+}
+
+.button_book a {
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.budrevich_shop {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 784px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #000000;
+    overflow: hidden;
+}
+
+.gradient {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient p {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.gradient_img_container {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 512px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gradient_img {
+    max-width: 424px;
+    width: 100%;
+    min-height: 512px;
+}
+
+.gradient_img img {
+    width: 100%;
+}
+
+.budrevich_engagement_rings {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 656px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #000000;
+    overflow: hidden;
+}
+
+.frame25 {
+    max-width: 388px;
+    width: 100%;
+    min-height: 533px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frame24 {
+    max-width: 537px;
+    width: 100%;
+    min-height: 262px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.frame24 p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 305px;
+}
+
+.frame24 p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 392px;
+}
+
+.frame25 ul {
+    max-width: 535px;
+    width: 100%;
+    min-height: 230px;
+}
+
+.frame25 ul li {
+    max-width: 198px;
+    width: 100%;
+    min-height: 64px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.frame25 ul li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.engagement_rings_cover {
+    max-width: 876px;
+    width: 100%;
+    min-height: 528px;
+}
+
+.budrevich_choose {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 416px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #000000;
+    overflow: hidden;
+}
+
+.budrevich_choose_title {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.budrevich_choose_title p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.budrevich_choose_icons {
+    max-width: 1159px;
+    width: 100%;
+    min-height: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.budrevich_choose_icons_group {
+    max-width: 225px;
+    width: 100%;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons_group_img {
+    max-width: 141px;
+    width: 100%;
+    min-height: 141px;
+}
+
+.icons_group_text {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    width: 203px;
+}
+
+.quote {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #000000;
+    overflow: hidden;
+}
+
+.quote_simply {
+    max-width: 519px;
+    width: 100%;
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quote_simply_text {
+    max-width: 519px;
+    width: 100%;
+    min-height: 626px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quote_simply_text p:nth-child(1) {
+    font-family: 'Gentium Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 163px;
+    line-height: 189px;
+    text-align: right;
+    color: #111111;
+
+}
+
+.quote_simply_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    width: 389px;
+    margin-top: 28px;
+}
+
+.quote_simply_like {
+    max-width: 300px;
+    width: 100%;
+    min-height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quote_simply_like1 {
+    max-width: 300px;
+    width: 100%;
+    min-height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.quote_simply_like2 {
+    max-width: 139px;
+    width: 100%;
+    min-height: 116px;
+    display: none;
+}
+
+.quote_simply_like2 img {
+    width: 100%;
+}
+
+.quote_simply_like p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.simply_like_star {
+    max-width: 115px;
+    width: 100%;
+    min-height: 16px;
+}
+
+.simply_like_star ul {
+    max-width: 115px;
+    width: 100%;
+    min-height: 16px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.simply_like_star ul li:hover {
+    color: #F0C300;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.quote_simply_cover {
+    max-width: 500px;
+    width: 100%;
+    min-height: 657px;
+}
+
+.quote_simply_cover img {
+    width: 100%;
+}
+
+.as_seen {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 288px;
+    background: #F5F5F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #000000;
+    overflow: hidden;
+}
+
+.as_seen_title {
+    max-width: 423px;
+    width: 100%;
+    min-height: 24px;
+}
+
+.engagement_rings_cover img {
+    width: 100%;
+}
+
+.as_seen_title p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.as_seen_pics {
+    max-width: 1326px;
+    width: 100%;
+    min-height: 93px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.guide_diamonds {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 496px;
+    background-color: #EEF5F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: solid 1px #000000;
+    background-image: url(img/Pic_Temp.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.guide_diamonds_text {
+    max-width: 1240px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.diamonds_text_title {
+    max-width: 578px;
+    width: 100%;
+    min-height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.diamonds_text_title p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.diamonds_text_title p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 491px;
+}
+
+.guide_diamonds_text ul li {
+    max-width: 198px;
+    width: 100%;
+    min-height: 64px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.guide_diamonds_text ul li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.guide_diamonds_cover {
+    max-width: 835px;
+    width: 100%;
+    min-height: 496px;
+}
+
+.workshop {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 2464px;
+    border-bottom: solid 1px #000000;
+    overflow: hidden;
+}
+
+.workshop_title {
+    max-width: 784px;
+    width: 100%;
+    min-height: 298px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.workshop_title p {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 96px;
+    color: #000000;
+    width: 720px;
+}
+
+.workshop_invite {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 416px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.workshop_invite_text {
+    max-width: 424px;
+    width: 100%;
+    min-height: 288px;
+}
+
+.workshop_invite_img {
+    max-width: 650px;
+    width: 100%;
+    min-height: 416px;
+}
+
+.workshop_invite_img img {
+    width: 100%;
+}
+
+.workshop_invite_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.workshop_detail {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 288px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.workshop_detail_img {
+    max-width: 424px;
+    width: 100%;
+    min-height: 288px;
+}
+
+.workshop_detail_text {
+    max-width: 650px;
+    width: 100%;
+    min-height: 194px;
+}
+
+.workshop_detail_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.workshop_approach {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 368px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.workshop_approach_img {
+    max-width: 763px;
+    width: 100%;
+    min-height: 368px;
+}
+
+.workshop_approach_text {
+    max-width: 424px;
+    width: 100%;
+    min-height: 256px;
+}
+
+.workshop_approach_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.workshop_about {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 753px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.workshop_about_text {
+    max-width: 650px;
+    width: 100%;
+    min-height: 753px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.workshop_about_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 96px;
+    color: #000000;
+}
+
+.workshop_about_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    width: 424px;
+}
+
+.workshop_about_img {
+    max-width: 424px;
+    width: 100%;
+    min-height: 753px;
+}
+
+.invitation {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 384px;
+    background-image: url(img/Mask_Group.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 1px #000000;
+    overflow: hidden;
+}
+
+.invitation_text ul {
+    max-width: 198px;
+    width: 100%;
+    min-height: 64px;
+}
+
+.invitation_text {
+    max-width: 424px;
+    width: 100%;
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.invitation_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.invitation_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.invitation_text ul li {
+    max-width: 198px;
+    width: 100%;
+    min-height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.invitation_text ul li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.favourites {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 600px;
+    border-bottom: solid 1px #000000;
+    overflow: hidden;
+}
+
+.favourites_titl {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 188px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favourites_titl p {
+    font-family: 'Lenora LC-Trial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.favourites_midnight {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 480px;
+    display: flex;
+    position: relative;
+}
+
+.vector1 {
+    position: absolute;
+    left: 30px;
+    top: 210px;
+}
+
+.vector2 {
+    position: absolute;
+    right: 30px;
+    top: 210px;
+}
+
+.favourites_midnight_card {
+    max-width: 480px;
+    width: 100%;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.midnight_card_img {
+    max-width: 305px;
+    width: 100%;
+    min-height: 314px;
+}
+
+.midnight_card_img img {
+    width: 100%;
+}
+
+.favourites_midnight_card p {
+    font-family: 'Lenora LC-Trial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-transform: capitalize;
+    color: #111111;
+}
+
+.text1 {
+    width: 220px;
+}
+
+
+.reviews {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.reviews_titl {
+    max-width: 1100px;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.reviews_titl_text {
+    max-width: 424px;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reviews_titl_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.reviews_titl_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.reviews_titl_based {
+    max-width: 175px;
+    width: 100%;
+    min-height: 65px;
+}
+
+.reviews_titl_based ul {
+    max-width: 165px;
+    width: 100%;
+    min-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.reviews_titl_based ul li {
+    font-size: 23px;
+    color: #333333;
+}
+
+.reviews_titl_based ul li:hover {
+    color: #F0C300;
+    cursor: pointer;
+    transition: 0.3s linear;
+    font-size: 30px;
+}
+
+.titl_based_favorit {
+    max-width: 170px;
+    width: 100%;
+    min-height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titl_based_favorit p:nth-child(1) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.titl_based_favorit p:nth-child(2) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.reviews_small {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 1240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+}
+
+.reviews_small_card {
+    max-width: 424px;
+    width: 100%;
+    min-height: 463px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small_card_login {
+    max-width: 370px;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_login_img {
+    max-width: 55px;
+    width: 100%;
+    min-height: 55px;
+    border-radius: 20px;
+}
+
+.card_login_favorit {
+    max-width: 167px;
+    width: 100%;
+    min-height: 45px;
+}
+
+.card_login_favorit p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.card_login_favorit ul {
+    max-width: 119px;
+    width: 100%;
+    min-height: 28px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_login_favorit ul li {
+    color: #111111;
+    font-size: 16px;
+}
+
+.card_login_favorit ul li:hover {
+    color: #F0C300;
+    cursor: pointer;
+    transition: 0.3s linear;
+    font-size: 20px;
+}
+
+.login_favorit_flex {
+    max-width: 100px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.reviews_small_card p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    width: 328px;
+}
+
+.reviews_small_card_rectangle {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 445px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 5.5%, rgba(255, 255, 255, 0.851) 51.77%, #FFFFFF 100%);
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.reviews_small_card_rectangle p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.budrevich_learn {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-bottom: solid 1px #000000;
+    overflow: hidden;
+}
+
+.budrevich_learn_gradient {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 300px;
+    background: linear-gradient(111.01deg, rgba(4, 0, 177, 0.2) -8.76%, rgba(0, 0, 0, 0) 102.99%), linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), #363840;
+}
+
+.budrevich_learn_more p {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F2F2F2;
+}
+
+.budrevich_learn_more {
+    max-width: 1328px;
+    width: 100%;
+    min-height: 820px;
+    position: absolute;
+    top: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.learn_more_column {
+    max-width: 1328px;
+    width: 100%;
+    min-height: 712px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.more_column1 {
+    max-width: 424px;
+    width: 100%;
+    min-height: 712px;
+}
+
+.more_column1_img {
+    max-width: 424px;
+    width: 100%;
+    min-height: 424px;
+}
+
+.more_column1_text {
+    max-width: 424px;
+    width: 100%;
+    min-height: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.more_column1_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #111111;
+    width: 225px;
+    text-align: start;
+}
+
+.more_column1_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #111111;
+    width: 311px;
+    text-align: start;
+}
+
+.more_column1_text ul li {
+    max-width: 198px;
+    width: 100%;
+    min-height: 64px;
+    border: 1px solid #111111;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.more_column1_text ul li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.budrevich_faq {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 725px;
+    background-image: url(img/bg_1.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.more_column1_img img {
+    width: 100%;
+}
+
+.budrevich_faq_title {
+    max-width: 1102px;
+    width: 100%;
+    min-height: 75px;
+}
+
+.budrevich_faq_title p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    display: none;
+}
+
+.budrevich_faq_title p:nth-child(2) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.budrevich_faq_title p:nth-child(3) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.budrevich_faq_box {
+    max-width: 1158px;
+    width: 100%;
+    min-height: 80px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.faq_box_flex p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.faq_box_flex {
+    max-width: 1080px;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq_box_info {
+    max-width: 1080px;
+    width: 100%;
+    min-height: 145px;
+    display: none;
+    transition: 1s linear;
+}
+
+.faq_box_info p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 989px;
+}
+
+.faq_box_info1 {
+    max-width: 1080px;
+    width: 100%;
+    min-height: 145px;
+    display: none;
+    transition: 1s linear;
+}
+
+.faq_box_info1 p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 989px;
+}
+
+.faq_box_info2 {
+    max-width: 1080px;
+    width: 100%;
+    min-height: 145px;
+    display: none;
+    transition: 1s linear;
+}
+
+.faq_box_info2 p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 989px;
+}
+
+.faq_box_info3 {
+    max-width: 1080px;
+    width: 100%;
+    min-height: 145px;
+    display: none;
+    transition: 1s linear;
+}
+
+.faq_box_info3 p {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    width: 989px;
+}
+
+.text2 {
+    font-family: 'Proxima Nova' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 32px !important;
+    text-transform: capitalize !important;
+    color: #111111 !important;
+    width: 343px !important;
+    text-align: start !important;
+}
+
+.text3 {
+    font-family: 'Proxima Nova' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    color: #111111 !important;
+    width: 424px !important;
+}
+
+.instV2 {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 1088px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.instV2_title {
+    max-width: 424px;
+    width: 100%;
+    min-height: 24px;
+}
+
+.instV2_title p {
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.instV2_pic {
+    max-width: 1360px;
+    width: 100%;
+    min-height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.instV2_pic_img {
+    max-width: 424px;
+    width: 100%;
+    min-height: 424px;
+}
+
+.instV2_pic_img img {
+    width: 100%;
+}
+
+.footer_custom {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 304px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer_div_Narek {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 303px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0.25turn, #3f3e5a, #404759);
+}
+
+.footer_div_mini_Narek {
+    max-width: 1440px;
+    width: 95%;
+    min-height: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_adress_Narek {
+    max-width: 350px;
+    width: 100%;
+}
+
+.footer_adress_text_Narek {
+    max-width: 220px;
+    width: 100%;
+}
+
+.style_1 {
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+
+.style_2 {
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    color: #F2F2F2;
+}
+
+.footer_hour_Narek {
+    max-width: 200px;
+    width: 100%;
+}
+
+.footer_hour_text_Narek {
+    max-width: 220px;
+    width: 100%;
+}
+
+.footer_gmail_Narek {
+    max-width: 420px;
+    width: 100%;
+}
+
+.footer_gmail_text_Narek {
+    max-width: 220px;
+    width: 100%;
+}
+
+.footer_company_Narek {
+    max-width: 120px;
+    width: 100%;
+}
+
+.footer_company_text_Narek {
+    max-width: 220px;
+    width: 100%;
+}
+
+.footer_backtop_Narek {
+    max-width: 120px;
+    width: 100%;
+}
+
+.footer_backtop_header_Narek {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_backtop_text_Narek {
+    max-width: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input_1 {
+    max-width: 311px;
+    width: 100%;
+    min-height: 48px;
+    background: #FBFBFB;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+}
+
+.input_2 {
+    max-width: 311px;
+    width: 100%;
+    min-height: 48px;
+    background: #404759;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.footer_company_text_ul_Narek {
+    list-style: none;
+}
+
+.icons_group_img img {
+    width: 100%;
+}
+
+.footer_company_text_ul_Narek li a {
+    font-family: 'Proxima Nova', arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #F2F2F2;
+}
+
+.hour_responsive {
+    display: none;
+}
+
+@media screen and (max-width:1280px) {
+    .footer_adress_Narek {
+        max-width: 310px;
+        width: 100%;
+    }
+
+    .footer_adress_text_Narek {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .footer_hour_Narek {
+        max-width: 200px;
+        width: 100%;
+    }
+
+    .footer_hour_text_Narek {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .footer_gmail_Narek {
+        max-width: 370px;
+        width: 100%;
+    }
+
+    .footer_gmail_text_Narek {
+        max-width: 210px;
+        width: 100%;
+    }
+
+    .footer_company_Narek {
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .footer_company_text_Narek {
+        max-width: 220px;
+        width: 100%;
+    }
+
+    .footer_backtop_Narek {
+        max-width: 120px;
+        width: 100%;
+    }
+
+    .footer_backtop_text_Narek {
+        max-width: 220px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .input_1 {
+        max-width: 311px;
+        width: 100%;
+        min-height: 48px;
+        background: #FBFBFB;
+        border: 1px solid #F2F2F2;
+        border-radius: 5px;
+    }
+
+    .input_2 {
+        max-width: 311px;
+        width: 100%;
+        min-height: 48px;
+        background: #404759;
+        border: 1px solid #F2F2F2;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .style_1 {
+        font-size: 13px;
+    }
+
+    .style_2 {
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .footer_div_Narek {
+        min-height: 403px;
+    }
+
+    .footer_div_mini_Narek {
+        min-height: 350px;
+    }
+
+    .footer_hour_Narek {
+        display: none;
+    }
+
+    .hour_responsive {
+        display: block;
+    }
+
+    .input_1 {
+        max-width: 181px;
+    }
+
+    .input_2 {
+        max-width: 181px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .footer_div_mini_Narek {
+        flex-direction: column;
+    }
+}
+
+.diamonds_graded {
+    max-width: 1280px;
+    width: 100%;
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 1px #000000;
+    display: none;
+    overflow: hidden;
+}
+
+.diamonds_graded_text {
+    max-width: 537px;
+    width: 100%;
+    min-height: 182px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.diamonds_graded_text p:nth-child(1) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.diamonds_graded_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 497px;
+}
+
+.diamonds_graded_img {
+    max-width: 490px;
+    width: 100%;
+    min-height: 137px;
+}
+
+.diamonds_graded_img img {
+    width: 100%;
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        max-width: 1280px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .cover_section {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 704px;
+    }
+
+    .gradient_img_container1 {
+        max-width: 371px;
+        width: 100%;
+        min-height: 490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .opening {
+        max-width: 1150px;
+        width: 100%;
+        min-height: 397px;
+    }
+
+    .lenora p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 80px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        max-width: 480px;
+        width: 100%;
+    }
+
+    .lenora p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    .budrevich_shop {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 784px;
+    }
+
+    .gradient {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 140px;
+    }
+
+    .gradient_img_container {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 448px;
+    }
+
+    .gradient_img {
+        max-width: 371px;
+        width: 100%;
+        min-height: 448px;
+    }
+
+    .budrevich_engagement_rings {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 704px;
+    }
+
+    .frame24 p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+        width: 376px;
+    }
+
+    .engagement_rings_cover {
+        max-width: 769px;
+        width: 100%;
+        min-height: 528px;
+    }
+
+    .budrevich_choose {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 544px;
+    }
+
+    .budrevich_choose_title {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .budrevich_choose_icons {
+        max-width: 1159px;
+        width: 100%;
+        min-height: 275px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icons_group_img {
+        max-width: 127px;
+        width: 100%;
+        min-height: 127px;
+    }
+
+    .quote {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 960px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 1px solid #000000;
+    }
+
+    .quote_simply_cover {
+        max-width: 469px;
+        width: 100%;
+        min-height: 672px;
+    }
+
+    .guide_diamonds {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 640px;
+        background-image: url(img/img2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .diamonds_text_title p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #000000;
+        width: 749px;
+    }
+
+    .guide_diamonds_text {
+        max-width: 970px;
+        width: 100%;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .diamonds_graded {
+        display: flex;
+    }
+
+    .invitation {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 480px;
+    }
+
+    .invitation_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 70px;
+    }
+
+    .favourites {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 600px;
+    }
+
+    .favourites_midnight_card {
+        max-width: 427px;
+        width: 100%;
+        min-height: 416px;
+    }
+
+    .reviews {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 1200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .reviews_small_card {
+        max-width: 371px;
+        width: 100%;
+        min-height: 512px;
+    }
+
+    .small_card_login {
+        max-width: 340px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .reviews_small_card1 {
+        display: none;
+    }
+
+    .reviews_small {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 650px;
+    }
+
+    .reviews_small_card_rectangle {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 445px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 5.5%, rgba(255, 255, 255, 0.851) 51.77%, #FFFFFF 100%);
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .budrevich_learn {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 928px;
+    }
+
+    .budrevich_learn_more {
+        max-width: 1168px;
+        width: 100%;
+        min-height: 791px;
+    }
+
+    .budrevich_learn_gradient {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 290px;
+    }
+
+    .more_column1_img {
+        max-width: 371px;
+        width: 100%;
+        min-height: 368px;
+    }
+
+    .more_column1_text {
+        max-width: 424px;
+        width: 100%;
+        min-height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .budrevich_faq {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 864px;
+        background-image: url(img/img3.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .text3 {
+        width: 371px !important;
+    }
+
+    .instV2 {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 992px;
+    }
+
+    .instV2_pic_img {
+        max-width: 371px;
+        width: 100%;
+        min-height: 368px;
+    }
+}
+
+.opening1 {
+    max-width: 768px;
+    width: 100%;
+    min-height: 336px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+    overflow: hidden;
+}
+
+.lener1 {
+    max-width: 450px;
+    width: 100%;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lener1 p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #111111;
+    width: 276px;
+}
+
+.lener1 p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #111111;
+    width: 441px;
+}
+
+.opening1 ul {
+    max-width: 450px;
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opening1 ul li {
+    max-width: 200px;
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #111111;
+    border-radius: 5px;
+}
+
+.opening1 ul li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    /* Budrevich/Black #111 */
+    color: #111111;
+}
+
+.budrevich_engagement_rings1 {
+    max-width: 768px;
+    width: 100%;
+    min-height: 336px;
+    background-image: url(img/2_21.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+    overflow: hidden;
+}
+
+.budrevich_engagement_rings2 {
+    max-width: 768px;
+    width: 100%;
+    min-height: 336px;
+    background-image: url(img/IMG_20641.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+    overflow: hidden;
+}
+
+.engagement_text {
+    max-width: 428px;
+    width: 100%;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.engagement_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.engagement_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 400px;
+}
+
+.budrevich_engagement_rings1 ul {
+    max-width: 450px;
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.budrevich_engagement_rings1 ul li {
+    max-width: 200px;
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.budrevich_engagement_rings1 ul li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.budrevich_engagement_rings2 ul {
+    max-width: 450px;
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.budrevich_engagement_rings2 ul li {
+    max-width: 200px;
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.budrevich_engagement_rings2 ul li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.workshop_invite_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 262px;
+    display: none;
+}
+
+.workshop_detail_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    width: 302px;
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .cover_section {
+        max-width: 768px;
+        width: 100%;
+        min-height: 480px;
+        background-image: url(img/BG_Image.jpg);
+        background-size: cover;
+    }
+
+    .gradient_img_container1 {
+        max-width: 200px;
+        width: 100%;
+        min-height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .workshop_invite_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 256px;
+    }
+
+    .workshop_invite_img img {
+        border-radius: 5px;
+    }
+
+    .budrevich_engagement_rings2 {
+        display: flex;
+    }
+
+    .opening {
+        display: none;
+    }
+
+    .opening1 {
+        display: flex;
+    }
+
+    .budrevich_shop {
+        max-width: 768px;
+        width: 100%;
+        min-height: 416px;
+    }
+
+    .gradient {
+        max-width: 768px;
+        width: 100%;
+        min-height: 140px;
+    }
+
+    .gradient p {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .gradient_img {
+        max-width: 200px;
+        width: 100%;
+        min-height: 208px;
+        border-radius: 5px;
+    }
+
+    .gradient_img img {
+        border-radius: 5px;
+    }
+
+    .gradient_img_container {
+        max-width: 768px;
+        width: 100%;
+        min-height: 280px;
+    }
+
+    .budrevich_engagement_rings {
+        display: none;
+    }
+
+    .budrevich_engagement_rings1 {
+        display: flex;
+    }
+
+    .budrevich_choose {
+        max-width: 768px;
+        width: 100%;
+        min-height: 480px;
+    }
+
+    .budrevich_choose_title p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .icons_group_img {
+        max-width: 64px;
+        width: 100%;
+        min-height: 64px;
+    }
+
+    .icons_group_text {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .budrevich_choose_icons_group {
+        max-width: 264px;
+        width: 100%;
+        min-height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .budrevich_choose_icons {
+        max-width: 680px;
+        width: 100%;
+        min-height: 275px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .quote {
+        max-width: 768px;
+        width: 100%;
+        min-height: 544px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: 1px solid #000000;
+    }
+
+    .quote_simply_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        width: 264px;
+    }
+
+    .quote_simply_text p:nth-child(1) {
+        font-family: 'Gentium Basic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 114px;
+        line-height: 189px;
+        text-align: right;
+        height: 80px;
+        color: #111111;
+    }
+
+    .quote_simply {
+        max-width: 519px;
+        width: 100%;
+        min-height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .quote_simply_like {
+        max-width: 190px;
+        width: 100%;
+        min-height: 68px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .quote_simply_cover {
+        max-width: 469px;
+        width: 100%;
+        min-height: 494px;
+    }
+
+    .quote_simply_text {
+        max-width: 519px;
+        width: 100%;
+        min-height: 360px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .guide_diamonds {
+        max-width: 768px;
+        width: 100%;
+        min-height: 368px;
+        background-color: #EEF5F9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-bottom: solid 1px #000000;
+        background-image: url(img/Pic_Temp_3.png);
+        background-size: cover;
+    }
+
+    .diamonds_text_title p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 314px;
+    }
+
+    .diamonds_text_title p:nth-child(1) {
+        font-family: 'Lenora LC-Trial';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000000;
+        width: 276px;
+    }
+
+    .guide_diamonds_text {
+        max-width: 625px;
+        width: 100%;
+        min-height: 368px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .diamonds_text_title {
+        max-width: 535px;
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .diamonds_graded_text p:nth-child(1) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .diamonds_graded_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #000000;
+        width: 314px;
+    }
+
+    .diamonds_graded {
+        max-width: 768px;
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-bottom: none;
+    }
+
+    .diamonds_graded_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 88px;
+    }
+
+    .diamonds_graded_text {
+        max-width: 284px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .workshop_title {
+        display: none;
+    }
+
+    .workshop_invite {
+        max-width: 768px;
+        width: 100%;
+        min-height: 270px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+    }
+
+    .workshop {
+        max-width: 768px;
+        width: 100%;
+        min-height: 870px;
+        border-bottom: solid 1px #000000;
+    }
+
+    .workshop_invite_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 262px;
+    }
+
+    .workshop_invite_text p:nth-child(1) {
+        display: block;
+    }
+
+    .workshop_invite_text {
+        max-width: 262px;
+        width: 100%;
+        min-height: 225px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .workshop_detail {
+        max-width: 768px;
+        width: 100%;
+        min-height: 288px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+
+    .workshop_detail_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 217px;
+    }
+
+    .workshop_detail_img img {
+        border-radius: 5px;
+    }
+
+    .workshop_detail_text {
+        max-width: 288px;
+        width: 100%;
+        min-height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+
+    .workshop_detail_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .workshop_approach_img {
+        max-width: 314px;
+        width: 100%;
+        min-height: 217px;
+    }
+
+    .workshop_detail_text p:nth-child(2) {
+        display: block;
+    }
+
+    .workshop_approach_text p:nth-child(1) {
+        display: block;
+    }
+
+    .workshop_approach {
+        max-width: 768px;
+        width: 100%;
+        min-height: 265px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .workshop_approach_text {
+        max-width: 300px;
+        width: 100%;
+        min-height: 209px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .workshop_approach_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 305px;
+    }
+
+    .workshop_approach_img img {
+        width: 100%;
+        height: 213px;
+        border-radius: 5px;
+    }
+
+    .workshop_about {
+        display: none;
+    }
+
+    .invitation {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 320px;
+        background-image: url(img/Mask_1Group.jpg);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px #000000;
+    }
+
+    .favourites {
+        max-width: 768px;
+        width: 100%;
+        min-height: 352px;
+    }
+
+    .favourites_midnight {
+        max-width: 768px;
+        width: 100%;
+        min-height: 416px;
+        display: flex;
+        position: relative;
+    }
+
+    .favourites_titl {
+        max-width: 768px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .favourites_titl p {
+        font-family: 'Lenora LC-Trial';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .midnight_card_img {
+        max-width: 200px;
+        width: 100%;
+        min-height: 245px;
+    }
+
+    .favourites_midnight_card p {
+        font-family: 'Lenora LC-Trial';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        text-transform: capitalize;
+        color: #111111;
+    }
+
+    .text1 {
+        width: 160px;
+    }
+
+    .reviews {
+        max-width: 768px;
+        width: 100%;
+        min-height: 1050px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F2F2F2;
+        position: relative;
+    }
+
+    .reviews_titl {
+        max-width: 650px;
+        width: 100%;
+        min-height: 285px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        flex-direction: column-reverse;
+    }
+
+    .login_favorit_flex {
+        max-width: 40px;
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .reviews_small_card {
+        max-width: 328px;
+        width: 100%;
+        min-height: 224px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 10px;
+    }
+
+    .small_card_login {
+        max-width: 290px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .reviews_small_card p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 296px;
+    }
+
+    .reviews_small_card2 {
+        display: flex;
+    }
+
+    .reviews_small_card_rectangle {
+        max-width: 768px;
+        width: 100%;
+        min-height: 65px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 5.5%, rgba(255, 255, 255, 0.851) 51.77%, #FFFFFF 100%);
+        position: absolute;
+        bottom: -22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviews_small {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 650px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+        flex-direction: row;
+        align-items: baseline;
+        position: relative;
+    }
+
+    .budrevich_learn_gradient {
+        max-width: 768px;
+        width: 100%;
+        min-height: 190px;
+    }
+
+    .more_column1_img {
+        max-width: 200px;
+        width: 100%;
+        min-height: 192px;
+    }
+
+    .more_column1_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #111111;
+        width: 200px;
+    }
+
+    .more_column1_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #111111;
+        width: 200px;
+    }
+
+    .more_column1_text ul li {
+        max-width: 114px;
+        width: 100%;
+        min-height: 48px;
+        border: 1px solid #111111;
+        border-radius: 5px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .more_column1_text ul li a {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #111111;
+    }
+
+    .learn_more_column {
+        max-width: 750px;
+        width: 100%;
+        min-height: 712px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .more_column1 {
+        max-width: 200px;
+        width: 100%;
+        min-height: 712px;
+    }
+
+    .budrevich_learn_more {
+        max-width: 700px;
+        width: 100%;
+        min-height: 791px;
+    }
+
+    .budrevich_learn {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 680px;
+    }
+
+    .budrevich_faq_title p:nth-child(1) {
+        display: block;
+    }
+
+    .budrevich_faq_title p:nth-child(2) {
+        display: none;
+    }
+
+    .budrevich_faq_title p:nth-child(3) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #000000;
+        width: 264px;
+    }
+
+    .budrevich_faq_title {
+        max-width: 1102px;
+        width: 100%;
+        min-height: 75px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .budrevich_faq {
+        max-width: 768px;
+        width: 100%;
+        min-height: 600px;
+        background-color: #F2F2F2;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .budrevich_faq_box {
+        max-width: 688px;
+        width: 100%;
+        min-height: 52px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .faq_box_flex {
+        max-width: 630px;
+        width: 100%;
+        min-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .faq_box_flex p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+    }
+
+    .faq_box_info p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 460px;
+    }
+
+    .faq_box_info {
+        max-width: 630px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .faq_box_info1 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 460px;
+    }
+
+    .faq_box_info1 {
+        max-width: 630px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .faq_box_info2 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 460px;
+    }
+
+    .faq_box_info2 {
+        max-width: 630px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .faq_box_info3 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 460px;
+    }
+
+    .faq_box_info3 {
+        max-width: 630px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .text2 {
+        font-family: 'Proxima Nova' !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        line-height: 20px !important;
+        text-transform: capitalize !important;
+        color: #111111 !important;
+        width: 195px !important;
+    }
+
+    .text3 {
+        font-family: 'Proxima Nova' !important;
+        font-style: normal !important;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 16px !important;
+        color: #111111 !important;
+        width: 200px !important;
+    }
+
+    .instV2 {
+        max-width: 768px;
+        width: 100%;
+        min-height: 624px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .instV2_pic_img {
+        max-width: 200px;
+        width: 100%;
+        min-height: 198px;
+    }
+
+    .instV2_pic {
+        max-width: 1360px;
+        width: 100%;
+        min-height: 440px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    .instV2_title p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+}
+
+.quote_simply_cover1 {
+    max-width: 263px;
+    width: 100%;
+    min-height: 352px;
+    background-image: url(img/photo.png);
+    display: none;
+}
+
+.guide_diamonds1_text_ul {
+    max-width: 264px;
+    width: 100%;
+    min-height: 50px;
+}
+
+.guide_diamonds1_text_ul ul li {
+    max-width: 195px;
+    width: 100%;
+    min-height: 48px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.guide_diamonds1_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 264px;
+}
+
+.guide_diamonds1_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 264px;
+}
+
+.guide_diamonds1_text_ul ul li a {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.guide_diamonds1 {
+    max-width: 320px;
+    width: 100%;
+    min-height: 672px;
+    display: none;
+}
+
+.guide_diamonds1_text {
+    max-width: 320px;
+    width: 100%;
+    min-height: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.guide_diamonds1_cover {
+    max-width: 309px;
+    width: 100%;
+    min-height: 120px;
+    background-image: url(img/Pic.png);
+}
+
+.guide_diamonds1_gia {
+    max-width: 320px;
+    width: 100%;
+    min-height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text5 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 264px;
+}
+
+.text4 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #000000;
+    width: 250px;
+}
+
+.guide_diamonds1_gia_by {
+    max-width: 264px;
+    width: 100%;
+    min-height: 182px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.workshop1 {
+    max-width: 320px;
+    width: 100%;
+    min-height: 1590px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.workshop1_container {
+    max-width: 320px;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workshop1_container_img {
+    max-width: 264px;
+    width: 100%;
+    min-height: 192px;
+}
+
+.workshop1_container_img img {
+    width: 100%;
+}
+
+.workshop1_container_text {
+    max-width: 244px;
+    width: 100%;
+    min-height: 205px;
+}
+
+.workshop1_container_text p:nth-child(1) {
+    font-family: 'Lenora Premium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.workshop1_container_text p:nth-child(2) {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.instV2_pic_img1 {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .cover_section {
+        max-width: 500px;
+        width: 100%;
+        min-height: 320px;
+        background-image: url(img/BG_1Image.jpg);
+        background-size: cover;
+    }
+
+    .diamonds_graded {
+        display: none;
+    }
+
+    .lener1 p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #111111;
+        width: 264px;
+    }
+
+    .opening1 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 336px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        border-bottom: solid 1px #000000;
+    }
+
+    .gradient p {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .budrevich_shop {
+        max-width: 500px;
+        width: 100%;
+        min-height: 1056px;
+    }
+
+    .gradient_img {
+        max-width: 264px;
+        width: 100%;
+        min-height: 256px;
+        border-radius: 5px;
+    }
+
+    .gradient_img_container {
+        max-width: 500px;
+        width: 100%;
+        min-height: 1020px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .gradient_img img {
+        width: 100%;
+    }
+
+    .gradient_img_container1 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .budrevich_engagement_rings1 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 320px;
+        background-image: url(img/2_321.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+    }
+
+    .engagement_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 264px;
+    }
+
+    .budrevich_choose {
+        max-width: 500px;
+        width: 100%;
+        min-height: 720px;
+    }
+
+    .budrevich_choose_icons {
+        max-width: 680px;
+        width: 100%;
+        min-height: 900px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .budrevich_choose_title {
+        max-width: 500px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quote {
+        max-width: 500px;
+        width: 100%;
+        min-height: 990px;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #000000;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quote_simply_text {
+        max-width: 255px;
+        width: 100%;
+        min-height: 360px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .quote_simply_like {
+        max-width: 255px;
+        width: 100%;
+        min-height: 68px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .quote_simply_cover {
+        display: none;
+    }
+
+    .quote_simply_cover1 {
+        display: block;
+    }
+
+    .quote_simply_like p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    .quote_simply_like2 {
+        display: block;
+    }
+
+    .budrevich_engagement_rings2 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 320px;
+        background-image: url(img/IMG_2064_1.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+    }
+
+    .guide_diamonds {
+        display: none;
+    }
+
+    .guide_diamonds1 {
+        display: block;
+    }
+
+    .workshop {
+        display: none;
+    }
+
+    .workshop1 {
+        display: flex;
+    }
+
+    .invitation {
+        max-width: 500px;
+        width: 100%;
+        min-height: 240px;
+        background-image: url(img/Mask_Group.png);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px #000000;
+    }
+
+    .invitation_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+
+    }
+
+    .invitation_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0px;
+        width: 214px;
+    }
+
+    .invitation_text ul li {
+        max-width: 195px;
+        width: 100%;
+        min-height: 48px;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .invitation_text {
+        max-width: 424px;
+        width: 100%;
+        min-height: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .favourites_midnight_card1 {
+        display: none;
+    }
+
+    .midnight_card_img {
+        max-width: 203px;
+        width: 100%;
+        min-height: 209px;
+    }
+
+    .vector1 img {
+        max-width: 8px;
+        width: 100%;
+        min-height: 16px;
+    }
+
+    .vector2 img {
+        max-width: 8px;
+        width: 100%;
+        min-height: 16px;
+    }
+
+    .favourites_midnight_card p {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        text-transform: capitalize;
+        color: #111111;
+    }
+
+    .reviews {
+        max-width: 500px;
+        width: 100%;
+        min-height: 832px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F2F2F2;
+        position: relative;
+    }
+
+    .reviews_titl_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000000;
+        width: 264px;
+    }
+
+    .reviews_titl_text {
+        max-width: 424px;
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .reviews_small {
+        max-width: 500px;
+        width: 100%;
+        min-height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+        flex-direction: row;
+        align-items: baseline;
+        position: relative;
+    }
+
+    .reviews_small_card {
+        max-width: 292px;
+        width: 100%;
+        min-height: 224px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 10px;
+    }
+
+    .card_login_favorit ul {
+        max-width: 72px;
+        width: 100%;
+        min-height: 28px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card_login_favorit ul li {
+        color: #111111;
+        font-size: 10px;
+    }
+
+    .reviews_small_card p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .small_card_login {
+        max-width: 280px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .reviews_small_card1 {
+        display: none;
+    }
+
+    .reviews_small {
+        max-width: 500px;
+        width: 100%;
+        min-height: 610px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: stretch;
+        flex-direction: row;
+        align-items: baseline;
+        position: relative;
+    }
+
+    .reviews_titl {
+        max-width: 292px;
+        width: 100%;
+        min-height: 285px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        flex-direction: column-reverse;
+    }
+
+    .budrevich_learn_gradient {
+        max-width: 500px;
+        width: 100%;
+        min-height: 144px;
+    }
+
+    .budrevich_learn {
+        max-width: 500px;
+        width: 100%;
+        min-height: 1800px;
+    }
+
+    .learn_more_column {
+        max-width: 500px;
+        width: 100%;
+        min-height: 1730px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .more_column1_img {
+        max-width: 264px;
+        width: 100%;
+        min-height: 256px;
+    }
+
+    .more_column1_img img {
+        width: 264px;
+        height: 256px;
+    }
+
+    .more_column1 {
+        max-width: 264px;
+        width: 100%;
+        min-height: 550px;
+    }
+
+    .more_column1_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #111111;
+    }
+
+    .more_column1_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #111111;
+        width: 264px;
+    }
+
+    .more_column1_text {
+        max-width: 424px;
+        width: 100%;
+        min-height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .budrevich_learn_more p {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #F2F2F2;
+    }
+
+    .budrevich_faq {
+        max-width: 500px;
+        width: 100%;
+        min-height: 680px;
+        background-color: #F2F2F2;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .budrevich_faq_title p:nth-child(3) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #000000;
+        width: 264px;
+    }
+
+    .budrevich_faq_box {
+        max-width: 292px;
+        width: 100%;
+        min-height: 52px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .faq_box_flex p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+
+    .faq_box_flex {
+        max-width: 262px;
+        width: 100%;
+        min-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .faq_box_info p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .faq_box_info {
+        max-width: 262px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .faq_box_info1 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .faq_box_info1 {
+        max-width: 262px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .faq_box_info2 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .faq_box_info2 {
+        max-width: 262px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .faq_box_info3 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .faq_box_info3 {
+        max-width: 262px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .instV2 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 440px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .instV2_pic {
+        max-width: 500px;
+        width: 100%;
+        min-height: 330px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    .instV2_pic_img1 {
+        display: none;
+    }
+
+    .instV2_pic_img {
+        max-width: 140px;
+        width: 100%;
+        min-height: 106px;
+    }
+
+    .workshop1 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 1590px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .guide_diamonds1 {
+        max-width: 500px;
+        width: 100%;
+        min-height: 672px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover_section {
+        max-width: 320px;
+        width: 100%;
+        min-height: 320px;
+        background-image: url(img/BG_1Image.jpg);
+        background-size: cover;
+    }
+
+    .diamonds_graded {
+        display: none;
+    }
+
+    .lener1 p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #111111;
+        width: 264px;
+    }
+
+    .opening1 {
+        max-width: 320px;
+        width: 100%;
+        min-height: 336px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+        border-bottom: solid 1px #000000;
+    }
+
+    .gradient p {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .budrevich_shop {
+        max-width: 320px;
+        width: 100%;
+        min-height: 1056px;
+    }
+
+    .gradient_img {
+        max-width: 264px;
+        width: 100%;
+        min-height: 256px;
+        border-radius: 5px;
+    }
+
+    .gradient_img_container {
+        max-width: 768px;
+        width: 100%;
+        min-height: 1020px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .gradient_img img {
+        width: 100%;
+    }
+
+    .gradient_img_container1 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+
+    .budrevich_engagement_rings1 {
+        max-width: 320px;
+        width: 100%;
+        min-height: 320px;
+        background-image: url(img/2_321.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+    }
+
+    .engagement_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 264px;
+    }
+
+    .budrevich_choose {
+        max-width: 320px;
+        width: 100%;
+        min-height: 720px;
+    }
+
+    .budrevich_choose_icons {
+        max-width: 680px;
+        width: 100%;
+        min-height: 900px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .budrevich_choose_title {
+        max-width: 1280px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quote {
+        max-width: 320px;
+        width: 100%;
+        min-height: 990px;
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 1px solid #000000;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quote_simply_text {
+        max-width: 255px;
+        width: 100%;
+        min-height: 360px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .quote_simply_like {
+        max-width: 255px;
+        width: 100%;
+        min-height: 68px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .quote_simply_cover {
+        display: none;
+    }
+
+    .quote_simply_cover1 {
+        display: block;
+    }
+
+    .quote_simply_like p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 32px;
+        color: #000000;
+    }
+
+    .quote_simply_like2 {
+        display: block;
+    }
+
+    .budrevich_engagement_rings2 {
+        max-width: 320px;
+        width: 100%;
+        min-height: 320px;
+        background-image: url(img/IMG_2064_1.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        overflow: hidden;
+    }
+
+    .guide_diamonds {
+        display: none;
+    }
+
+    .guide_diamonds1 {
+        display: block;
+    }
+
+    .workshop {
+        display: none;
+    }
+
+    .workshop1 {
+        display: flex;
+    }
+
+    .invitation {
+        max-width: 320px;
+        width: 100%;
+        min-height: 240px;
+        background-image: url(img/Mask_Group.png);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: solid 1px #000000;
+    }
+
+    .invitation_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+
+    }
+
+    .invitation_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0px;
+        width: 214px;
+    }
+
+    .invitation_text ul li {
+        max-width: 195px;
+        width: 100%;
+        min-height: 48px;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .invitation_text {
+        max-width: 424px;
+        width: 100%;
+        min-height: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .favourites_midnight_card1 {
+        display: none;
+    }
+
+    .midnight_card_img {
+        max-width: 203px;
+        width: 100%;
+        min-height: 209px;
+    }
+
+    .vector1 img {
+        max-width: 8px;
+        width: 100%;
+        min-height: 16px;
+    }
+
+    .vector2 img {
+        max-width: 8px;
+        width: 100%;
+        min-height: 16px;
+    }
+
+    .favourites_midnight_card p {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        text-transform: capitalize;
+        color: #111111;
+    }
+
+    .reviews {
+        max-width: 320px;
+        width: 100%;
+        min-height: 832px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F2F2F2;
+        position: relative;
+    }
+
+    .reviews_titl_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #000000;
+        width: 264px;
+    }
+
+    .reviews_titl_text {
+        max-width: 424px;
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .reviews_small {
+        max-width: 320px;
+        width: 100%;
+        min-height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+        flex-direction: row;
+        align-items: baseline;
+        position: relative;
+    }
+
+    .reviews_small_card {
+        max-width: 292px;
+        width: 100%;
+        min-height: 224px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 10px;
+    }
+
+    .card_login_favorit ul {
+        max-width: 72px;
+        width: 100%;
+        min-height: 28px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .card_login_favorit ul li {
+        color: #111111;
+        font-size: 10px;
+    }
+
+    .reviews_small_card p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .small_card_login {
+        max-width: 280px;
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .reviews_small_card1 {
+        display: none;
+    }
+
+    .reviews_small {
+        max-width: 320px;
+        width: 100%;
+        min-height: 610px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: stretch;
+        flex-direction: row;
+        align-items: baseline;
+        position: relative;
+    }
+
+    .reviews_titl {
+        max-width: 292px;
+        width: 100%;
+        min-height: 285px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 60px;
+        flex-direction: column-reverse;
+    }
+
+    .budrevich_learn_gradient {
+        max-width: 320px;
+        width: 100%;
+        min-height: 144px;
+    }
+
+    .budrevich_learn {
+        max-width: 320px;
+        width: 100%;
+        min-height: 1800px;
+    }
+
+    .learn_more_column {
+        max-width: 320px;
+        width: 100%;
+        min-height: 1730px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .more_column1_img {
+        max-width: 264px;
+        width: 100%;
+        min-height: 256px;
+    }
+
+    .more_column1_img img {
+        width: 264px;
+        height: 256px;
+    }
+
+    .more_column1 {
+        max-width: 264px;
+        width: 100%;
+        min-height: 550px;
+    }
+
+    .more_column1_text p:nth-child(1) {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #111111;
+    }
+
+    .more_column1_text p:nth-child(2) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #111111;
+        width: 264px;
+    }
+
+    .more_column1_text {
+        max-width: 424px;
+        width: 100%;
+        min-height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .budrevich_learn_more p {
+        font-family: 'Lenora Premium';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #F2F2F2;
+    }
+
+    .budrevich_faq {
+        max-width: 320px;
+        width: 100%;
+        min-height: 680px;
+        background-color: #F2F2F2;
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .budrevich_faq_title p:nth-child(3) {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #000000;
+        width: 264px;
+    }
+
+    .budrevich_faq_box {
+        max-width: 292px;
+        width: 100%;
+        min-height: 52px;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .faq_box_flex p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+    }
+
+    .faq_box_flex {
+        max-width: 262px;
+        width: 100%;
+        min-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .faq_box_info p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .faq_box_info {
+        max-width: 262px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .faq_box_info1 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .faq_box_info1 {
+        max-width: 262px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .faq_box_info2 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .faq_box_info2 {
+        max-width: 262px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .faq_box_info3 p {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        width: 264px;
+    }
+
+    .faq_box_info3 {
+        max-width: 262px;
+        width: 100%;
+        min-height: 145px;
+        display: none;
+    }
+
+    .instV2 {
+        max-width: 320px;
+        width: 100%;
+        min-height: 440px;
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .instV2_pic {
+        max-width: 320px;
+        width: 100%;
+        min-height: 330px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    .instV2_pic_img1 {
+        display: block;
+    }
+
+    .instV2_pic_img {
+        max-width: 106px;
+        width: 100%;
+        min-height: 106px;
+    }
+}

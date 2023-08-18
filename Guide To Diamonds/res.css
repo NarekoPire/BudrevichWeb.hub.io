@@ -1,0 +1,515 @@
+
+@media screen and (max-width:800px) {
+.secondlist21{
+  display: none;;
+}
+.secondlist22 {
+  display: block;
+}
+.a2{
+  display:none;
+}
+.secondlist:hover .secondlist1{
+  display:none;
+}
+
+
+
+
+.fourlist1{
+  display: flex;
+  flex-direction: column;
+}
+
+  .fourlist2{
+    display: none;
+
+  }
+  .a51{
+    transform: rotate(260deg);
+   }
+ 
+
+
+}
+@media screen and (max-width:500px) {
+    .a1{
+        display:none
+    }
+    .a2{
+      display:block;;
+    }
+    .secondlist:hover .secondlist1{
+      display:none;
+    }
+
+    .a6{
+      display: block;
+      max-width: 200px;
+      width: 100%;
+    } 
+
+
+   .fourlist2{
+    display:none;
+   }
+   .a51{
+    transform: rotate(0deg);
+   }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+  .bigimg2{
+    display:flex;
+  }
+  .bigimg1one{
+    display:none;
+  }
+
+}
+
+
+
+@media screen and (max-width: 768px){
+  .bigimg1{
+ display: none;
+  }
+  .bigimg1q1{
+    background-image: url(img1/52.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    max-width: 768px;
+    min-height: 480px;
+  }
+  .sixlist1{
+    display: block;
+  
+
+  }
+}
+@media screen and (max-width: 320px){
+  .bigimg1q1{
+  display:none;
+  }
+  .bigimg1q2{
+    background-image: url(img1/53.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    max-width: 320px;
+    min-height: 320px;
+  }
+  .sixlist {
+    min-height: 315px;
+  }
+  .sixlist h3 {
+    font-family: 'Lenora LC-Trial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;    
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .sixlist span {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #000000;
+  }
+  .sevenlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  .eightlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  .ninelist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  .thenlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  .twelvelist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+ 
+ 
+}
+
+@media screen and (max-width:768px) {
+  .sixlist h3 {
+    font-family: 'Lenora LC-Trial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;    
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .sixlist span {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #000000;
+  }
+ .sevenlist2{
+  background-image: url(./img1/55.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  min-height: 300px;
+
+ }
+ .sevenlist1{
+  min-height: 310px;
+  display: flex;
+  justify-content: flex-end;
+  
+ }
+ .sevenlist1one h3{
+  font-family: 'Lenora LC-Trial';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 32px;
+text-transform: capitalize;
+color: #000000;
+ }
+ .sevenlist1one span{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+
+ }
+.sevenlist1two {
+  min-height: 231px;
+}
+.sevenlist {
+  min-height: 300px;
+}
+.eightlist2{
+  background-image: url(./img1/66.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  min-height: 300px;
+
+ }
+ .eightlist1{
+  min-height: 310px;
+  display: flex;
+  justify-content: flex-end;
+  
+ }
+ .eightlist1one h3{
+  font-family: 'Lenora LC-Trial';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 32px;
+text-transform: capitalize;
+color: #000000;
+ }
+ .eightlist1one span{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+
+ }
+.eightlist1two {
+  min-height: 231px;
+}
+.eightlist {
+  min-height: 300px;
+}
+.fgt{
+  display:flex;
+}
+.fgh{
+  display:none;
+}
+.ccz{
+  display:none;
+}
+.cvb{
+  display:flex;
+}
+.ninelist2{
+  background-image: url(./img1/68.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  min-height: 300px;
+
+ }
+ .ninelist1{
+  min-height: 310px;
+  display: flex;
+  justify-content: flex-end;
+  
+ }
+ .ninelist1one h3{
+  font-family: 'Lenora LC-Trial';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 32px;
+text-transform: capitalize;
+color: #000000;
+ }
+ .ninelist1one span{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+
+ }
+.ninelist1two {
+  min-height: 231px;
+}
+.ninelist {
+  min-height: 300px;
+}
+
+
+
+.thenlist2{
+  background-image: url(./img1/69a.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  min-height: 300px;
+
+ }
+ .thenlist1{
+  min-height: 310px;
+  display: flex;
+  justify-content: flex-end;
+  
+ }
+ .thenlist1one h3{
+  font-family: 'Lenora LC-Trial';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 32px;
+text-transform: capitalize;
+color: #000000;
+ }
+ .thenlist1one span{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+
+ }
+.thenlist1two {
+  min-height: 231px;
+}
+.thenlist {
+  min-height: 300px;
+}
+
+.twelvelist2{
+  background-image: url(./img1/73.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+  min-height: 360px;
+
+ }
+ .twelvelist1{
+  min-height: 310px;
+  display: flex;
+  justify-content: flex-end;
+  
+ }
+ .twelvelist1one h3{
+  font-family: 'Lenora LC-Trial';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 32px;
+text-transform: capitalize;
+color: #000000;
+ }
+ .twelvelist1one span{
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+
+ }
+.twelvelist1two {
+  min-height: 231px;
+}
+.twelvelist {
+  min-height: 300px;
+}
+.elevenlist{
+  background-image: url(./img1/78.png);
+  overflow: hidden;
+  min-height: 162px;
+  background-size: cover;
+
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1280px) {
+  .footer_adress_Narek{
+      max-width: 310px;
+      width: 100%;
+  }
+  .footer_adress_text_Narek{
+      max-width: 220px;
+      width: 100%;
+  }
+  .footer_hour_Narek{
+      max-width: 200px;
+      width: 100%;
+  }
+  .footer_hour_text_Narek{
+      max-width: 220px;
+      width: 100%;
+  }
+  .footer_gmail_Narek{
+      max-width: 370px;
+      width: 100%;
+  }
+  .footer_gmail_text_Narek{
+      max-width: 210px;
+      width: 100%;
+  }
+  .footer_company_Narek{
+      max-width: 120px;
+      width: 100%;
+  }
+  .footer_company_text_Narek{
+      max-width: 220px;
+      width: 100%;
+  }
+  .footer_backtop_Narek{
+      max-width: 120px;
+      width: 100%;
+  }
+  .footer_backtop_text_Narek{
+      max-width: 220px;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+  }
+  .input_1{
+      max-width: 311px;
+      width: 100%;
+      min-height: 48px;
+      background: #FBFBFB;
+      border: 1px solid #F2F2F2;
+      border-radius: 5px;
+  }
+  .input_2{
+      max-width: 311px;
+      width: 100%;
+      min-height: 48px;
+      background: #404759;
+      border: 1px solid #F2F2F2;
+      border-radius: 5px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+  }
+  .style_1{
+      font-size: 13px;
+  }
+  .style_2{
+      font-size: 11px;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .footer_div_Narek{
+      min-height: 403px;
+  }
+  .footer_div_mini_Narek{
+      min-height: 350px;
+  }
+  .footer_hour_Narek{
+      display: none;
+  }
+  .hour_responsive{
+      display: block;
+  }
+  .input_1{
+      max-width: 181px;
+  }
+  .input_2{
+      max-width: 181px;
+  }
+}
+@media screen and (max-width:400px) {
+  .footer_div_mini_Narek{
+      flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width:320px) {
+  .elevenlist{
+    background-image: url(./img1/79.png);
+    overflow: hidden;
+    min-height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .twelvelist2 {
+    min-height: 211px;
+  }
+}
